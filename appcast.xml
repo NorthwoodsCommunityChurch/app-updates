@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Northwoods App Updates</title>
+        <link>https://northwoodscommunityChurch.github.io/app-updates/</link>
+        <description>macOS app updates for Northwoods Community Church</description>
+        <language>en</language>
+
+        <!-- App update entries go here, most recent first -->
+        <!-- Each app filters by its bundle ID -->
+
+    </channel>
+</rss>
