@@ -8,7 +8,7 @@
 
         <item>
             <title>Version 1.0.5</title>
-            <sparkle:version>1.0.5</sparkle:version>
+            <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <pubDate>Mon, 10 Feb 2026 13:48:00 -0600</pubDate>
@@ -20,8 +20,8 @@
             ]]></description>
             <enclosure
                 url="https://github.com/NorthwoodsCommunityChurch/Synaxis/releases/download/v1.0.5/Synaxis-v1.0.5-aarch64.zip"
-                sparkle:edSignature="Der1F+JoSESwbkllxi1HrWS8vtC2Mw7GRXgCo5xvQRmA5wv6OQ/CWy8M0fUzQY1uHCSGR5+031IMD9TgEYZSAA=="
-                length="2255531"
+                sparkle:edSignature="zoAG6x+yVGdHFw85MtjelEGzR04kecLoa9RJNM9sgEFoHsQgPA0K24tbdypUMsFIjV8dEicE1bc4rxXLgIjwDA=="
+                length="2255796"
                 type="application/octet-stream"/>
         </item>
 

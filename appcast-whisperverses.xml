@@ -8,7 +8,7 @@
 
         <item>
             <title>Version 1.1.1</title>
-            <sparkle:version>1.1.1</sparkle:version>
+            <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <pubDate>Mon, 10 Feb 2026 13:45:00 -0600</pubDate>
@@ -20,8 +20,8 @@
             ]]></description>
             <enclosure
                 url="https://github.com/NorthwoodsCommunityChurch/Whisper-Verses/releases/download/v1.1.1/WhisperVerses-v1.1.1-aarch64.zip"
-                sparkle:edSignature="UzyXcRpCkKEgpQ822vY4+9ahm4t64414K30zWDuhQxMFm/+RhNqJYT/DciSVZ6tBj/3y5DbBaH3/8+VgMlUuAQ=="
-                length="3543627"
+                sparkle:edSignature="WYz24Yv8Ro7NZBGRuUHndPF5JA4pWEdRX4vvZ7959pgPIzyxyOQgvraW9SpfQd3ZL9PBOPTSezYzBDWhWv65Cw=="
+                length="3547024"
                 type="application/octet-stream"/>
         </item>
 
