@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>AVL Dashboard Agent Updates</title>
+        <link>https://northwoodscommunitychurch.github.io/app-updates/</link>
+        <description>Updates for AVL Dashboard Agent</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.0.25</title>
+            <sparkle:version>1.0.25</sparkle:version>
+            <sparkle:shortVersionString>1.0.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 10 Feb 2026 11:45:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Replace custom update service with Sparkle for secure updates</li>
+                    <li>Fix rpath so binary finds Sparkle.framework</li>
+                    <li>"Check for Updates..." in menu bar</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/AVL-Dashboard/releases/download/v1.0.25/DashboardAgent-v1.0.25-aarch64.zip"
+                sparkle:edSignature="QEf7elTe/z22IGb3HPeYSsHM9kaBOXgASBmjf0wrTnkeJS5P5r6WkleBBHydMvrIyP+fVPexh5W1zfcowPA7Dg=="
+                length="3482121"
+                type="application/octet-stream"/>
+        </item>
+
+    </channel>
+</rss>

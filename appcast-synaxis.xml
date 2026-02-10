@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Synaxis Updates</title>
+        <link>https://northwoodscommunitychurch.github.io/app-updates/</link>
+        <description>Updates for Synaxis</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.0.4</title>
+            <sparkle:version>1.0.4</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 10 Feb 2026 10:30:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Add automatic update checking via Sparkle</li>
+                    <li>Updates are now securely signed and verified</li>
+                    <li>"Check for Updates..." option in the app menu</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Synaxis/releases/download/v1.0.4/Synaxis-v1.0.4-aarch64.zip"
+                sparkle:edSignature="MJCAsAuNot5jzclifMWY+0sWfBslNVI1uDgmwA4x8RV7kvJMHk5Jmw50v3t4xRrlaU0TLNcILsfT+UCoHloCBQ=="
+                length="2254108"
+                type="application/octet-stream"/>
+        </item>
+
+    </channel>
+</rss>

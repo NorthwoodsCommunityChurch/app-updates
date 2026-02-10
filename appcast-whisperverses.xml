@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Whisper Verses Updates</title>
+        <link>https://northwoodscommunitychurch.github.io/app-updates/</link>
+        <description>Updates for Whisper Verses</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.1.0</title>
+            <sparkle:version>1.1.0</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 09 Feb 2026 15:23:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Add automatic update checking via Sparkle</li>
+                    <li>Updates are now securely signed and verified</li>
+                    <li>"Check for Updates..." option in the app menu</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Whisper-Verses/releases/download/v1.1.0/WhisperVerses-v1.1.0-aarch64.zip"
+                sparkle:edSignature="SOptEDQ8gxFVBMikx0I9cRqO0rr6Ss/jskvWTOJMBl2KH9DU6CmGoRHGNrY+TluL73sYHfAsJWYuT80hbl/FBw=="
+                length="5446768"
+                type="application/octet-stream"/>
+        </item>
+
+    </channel>
+</rss>
