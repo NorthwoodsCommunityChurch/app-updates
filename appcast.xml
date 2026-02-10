@@ -6,6 +6,28 @@
         <description>macOS app updates for Northwoods Community Church</description>
         <language>en</language>
 
+        <!-- Synaxis -->
+        <item>
+            <title>Version 1.0.4</title>
+            <sparkle:version>1.0.4</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 10 Feb 2026 10:30:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Add automatic update checking via Sparkle</li>
+                    <li>Updates are now securely signed and verified</li>
+                    <li>"Check for Updates..." option in the app menu</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Synaxis/releases/download/v1.0.4/Synaxis-v1.0.4-aarch64.zip"
+                sparkle:edSignature="IWIfdUsmuTzopxFChnXavs3MS+s0gRRdbN8pPZBliD+aoPTmj2b/7eyT10coOFEHp9moYYISZCMQqYI6kIAuCQ=="
+                length="2254899"
+                type="application/octet-stream"/>
+        </item>
+
         <!-- Whisper Verses -->
         <item>
             <title>Version 1.1.0</title>
