@@ -7,6 +7,47 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.30</title>
+            <sparkle:version>1.0.30</sparkle:version>
+            <sparkle:shortVersionString>1.0.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 14 Feb 2026 17:04:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Fix GPU temperature reading on Mac Pro — reads per-GPU temps from IOAccelerator PerformanceStatistics instead of SMC</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/AVL-Dashboard/releases/download/v1.0.30/Dashboard-v1.0.30-universal.zip"
+                sparkle:edSignature="VpFdqSFrJhV3wYOmwGRVadLShVfAp0q3ztobKwCKwJvBhnC0a82XHvcdS11YLIAj+DKdMOjKoar4R97vOItZDg=="
+                length="2308697"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
+            <title>Version 1.0.29</title>
+            <sparkle:version>1.0.29</sparkle:version>
+            <sparkle:shortVersionString>1.0.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 14 Feb 2026 16:48:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>GPU monitoring: Agent detects discrete AMD GPUs and reports temperature and utilization</li>
+                    <li>New dual-concentric ring view for GPU usage and temperature per GPU</li>
+                    <li>Supports Mac Pro with up to 3 AMD RX 580 / 580X GPUs</li>
+                    <li>Universal binaries: now runs on both Intel and Apple Silicon</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/AVL-Dashboard/releases/download/v1.0.29/Dashboard-v1.0.29-universal.zip"
+                sparkle:edSignature="Sc4L/if5wuvH5y3IMIwaispT0FbvB2K3WCaZPTorOxxHZbVcE7WHqbn3wUNVCFbzYPqWPLiVy9FXh7z7xPtaCQ=="
+                length="2308693"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.28</title>
             <sparkle:version>1.0.28</sparkle:version>
             <sparkle:shortVersionString>1.0.28</sparkle:shortVersionString>
