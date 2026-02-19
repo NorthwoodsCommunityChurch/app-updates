@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
-        <title>Camera Positions Updates</title>
+        <title>Vocalist Positions Updates</title>
         <link>https://northwoodscommunitychurch.github.io/app-updates/</link>
-        <description>Updates for Camera Positions</description>
+        <description>Updates for Vocalist Positions</description>
         <language>en</language>
 
         <item>
@@ -20,9 +20,9 @@
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/NorthwoodsCommunityChurch/avl-production-positions/releases/download/v1.0.1/CameraPositions-v1.0.1-aarch64.zip"
-                sparkle:edSignature="d54jrca0c0H4NFriCLuFPP3dFRAfAbPwNcqTcJBqLTO3LI4+ortvNph0frW5T3IiX4+UgL41ZT2pWAaWa4u8DQ=="
-                length="1445036"
+                url="https://github.com/NorthwoodsCommunityChurch/avl-production-positions/releases/download/v1.0.1/VocalistPositions-v1.0.1-aarch64.zip"
+                sparkle:edSignature="oHrU02CBExErEzffQX+QYb1lZIk/Cj28KycFKPDv/jLQXp4ly/jUdAZxCD2tAvlveN9KV29DgvLT98vGdKpzCA=="
+                length="1362499"
                 type="application/octet-stream"/>
         </item>
 
@@ -36,16 +36,16 @@
                 <h2>What's New</h2>
                 <ul>
                     <li>Initial public release</li>
-                    <li>Drag-and-drop camera operator assignments</li>
-                    <li>Web display served on port 8080 for camera prep area monitors</li>
+                    <li>Drag-and-drop vocalist assignments</li>
+                    <li>Web display served on port 8080 for vocal team monitors</li>
                     <li>Planning Center integration for team members and service schedules</li>
                     <li>Multiple weekend/service support</li>
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/NorthwoodsCommunityChurch/avl-production-positions/releases/download/v1.0.0/CameraPositions-v1.0.0-aarch64.zip"
-                sparkle:edSignature="8b3LYLn6Yo12oWnAfe3Smjb2prhH/0NMeGdr9f37oD19p/ttEtE6UgQem8TDbLcLBe07/CdLt1jEC0NiMq9EAw=="
-                length="1330535"
+                url="https://github.com/NorthwoodsCommunityChurch/avl-production-positions/releases/download/v1.0.0/VocalistPositions-v1.0.0-aarch64.zip"
+                sparkle:edSignature="83G1XmrMxzr+spdA1s81yhp2f7AaJteOeYH3hcxFUoeSNgY0gEJhC34O3auhfELTvFB/Q7GjY6qSyKgDfVHWAg=="
+                length="1360835"
                 type="application/octet-stream"/>
         </item>
 
