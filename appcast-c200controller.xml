@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>C200 Controller Updates</title>
+        <link>https://northwoodscommunitychurch.github.io/app-updates/</link>
+        <description>Updates for C200 Controller</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.0.3</title>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 27 Feb 2026 14:55:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.3</h2>
+                <ul>
+                    <li>Auto-updates via Sparkle</li>
+                    <li>OTA firmware updates — push new ESP32 firmware to all boards from the app (⌘⇧U)</li>
+                    <li>TSL tally system — drives RGB tally LEDs from video switcher tally data</li>
+                    <li>Connection status indicators per camera</li>
+                    <li>Bug fix: debug log path works on any machine</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/avl-c200-controller/releases/download/v1.0.3/C200Controller-v1.0.3-aarch64.zip"
+                sparkle:edSignature="OQJzi2gWHID4M7G2vNZYYbfJ1GvJS96vRsTKK3saZWdit86e8PQ0DBsxkA5JepmT1Z8ry6+Cnu0hdp613S4BDQ=="
+                length="2601757"
+                type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
