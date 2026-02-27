@@ -7,6 +7,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.4</title>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 27 Feb 2026 16:54:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>C200 dashboard integration — operator name and lens display on camera tiles</li>
+                    <li>ESP32 display settings UI</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/camera-positions/releases/download/v1.0.4/CameraPositions-v1.0.4-aarch64.zip"
+                sparkle:edSignature="az3NG3aS0M+R2yP+y1+OnDWuqm1tk4H6sg2N6Zy1WIff8ON6+o1+lRk05gyDphg6s27k1Mk7I8JoLOU6khp2Bw=="
+                length="1496977"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.3</title>
             <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
