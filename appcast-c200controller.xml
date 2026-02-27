@@ -7,6 +7,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.4</title>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 27 Feb 2026 16:49:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.4</h2>
+                <ul>
+                    <li>Camera Positions integration — shows operator name and lens on each camera tile</li>
+                    <li>ESP32 firmware v1.0.5 bundled — OLED display orientation fixed</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.4/C200Controller-v1.0.4-aarch64.zip"
+                sparkle:edSignature="BCDOBoXa/crnkxrKuu5tP5PQ8UNf1+b3k9Mhyw6jzGyqtoLdYwvFSVTAQQM2qTdAehsTBWO+QfjpZWD9VqSVAw=="
+                length="2647464"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.3</title>
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
@@ -23,7 +43,7 @@
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/NorthwoodsCommunityChurch/avl-c200-controller/releases/download/v1.0.3/C200Controller-v1.0.3-aarch64.zip"
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.3/C200Controller-v1.0.3-aarch64.zip"
                 sparkle:edSignature="OQJzi2gWHID4M7G2vNZYYbfJ1GvJS96vRsTKK3saZWdit86e8PQ0DBsxkA5JepmT1Z8ry6+Cnu0hdp613S4BDQ=="
                 length="2601757"
                 type="application/octet-stream"/>
