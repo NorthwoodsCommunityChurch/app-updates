@@ -7,6 +7,30 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.13</title>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 27 Feb 2026 20:10:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.13</h2>
+                <ul>
+                    <li>OLED: operator name and lens each display on one line (was duplicated)</li>
+                    <li>OLED: text is right-aligned in the big-number camera layout</li>
+                    <li>OLED: bottom row of large camera number digits no longer extra thick</li>
+                    <li>Camera Positions data now displays correctly on OLED</li>
+                    <li>OTA firmware push now works on Macs with USB-C Ethernet or multiple adapters</li>
+                    <li>Firmware 1.0.13 bundled — press ⌘⇧U to update boards</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.13/C200Controller-v1.0.13-aarch64.zip"
+                sparkle:edSignature="Ea6V1cJNtk07qJLXdQV7CvrdxVWwQDg/qIScpnbqRPaevCTjd8+dSVhfBAxMXqAIi/E3fg0kz39Y2DcdJ8MFBg=="
+                length="2654409"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.12</title>
             <sparkle:version>11</sparkle:version>
             <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
