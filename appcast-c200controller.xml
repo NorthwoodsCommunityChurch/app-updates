@@ -7,6 +7,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.19</title>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 01 Mar 2026 18:00:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.19</h2>
+                <ul>
+                    <li>OLED screen preview on the back of each camera tile — shows camera number, tally state, operator name, lens, and cam/rec status just like the physical display</li>
+                    <li>Camera number, operator name, and lens info removed from the front of tiles (now lives on the back)</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.19/C200Controller-1.0.19.zip"
+                sparkle:edSignature="mpekXHQXiLMCZr/IHWCnJru9KZk2TH8ff9sY/Ue+MJbjsoi0609ydBxaB/+yclKmAjAWc7OXjg1b4j+Dr9zCBg=="
+                length="2668336"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.18</title>
             <sparkle:version>17</sparkle:version>
             <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
