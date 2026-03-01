@@ -7,6 +7,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.21</title>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 01 Mar 2026 20:00:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.21</h2>
+                <ul>
+                    <li>Fixed tally indicators flashing on state changes — tally now updates from ESP32 WebSocket feedback only, so you see what the hardware is actually doing</li>
+                    <li>Fixed camera tiles resizing when tally changes — LED glow on tile back is now a fixed size</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.21/C200Controller-1.0.21.zip"
+                sparkle:edSignature="7Ldj1RQi3j/nS9CRRxSxMHnNweaqcTcribCkOXtj6kZ2EZN/2055g7NWgNalrWBiC9tbFOyOgAcVWRuQH05DDw=="
+                length="2667508"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.20</title>
             <sparkle:version>19</sparkle:version>
             <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
