@@ -7,6 +7,25 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.18</title>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 01 Mar 2026 17:00:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.18</h2>
+                <ul>
+                    <li>Fixed camera tiles overlapping after tally indicators were added</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.18/C200Controller-v1.0.18-aarch64.zip"
+                sparkle:edSignature="EMJ03uEZ0t84zjT5AwxEuH9kKXmZHNYWggyJg8LEZeMAl3btNAL1TlDM7fqbVkNrGGcg1zTscQcAbdmD9BQbBA=="
+                length="2664089"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.17</title>
             <sparkle:version>16</sparkle:version>
             <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
