@@ -7,6 +7,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.20</title>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 01 Mar 2026 19:00:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.20</h2>
+                <ul>
+                    <li>Fixed tally not showing on cameras 3, 4, and 5 — dashboard now updates immediately when TSL arrives instead of waiting for WebSocket echo from the ESP32</li>
+                    <li>Fixed tally getting stuck on cameras 1 and 2 — clearing tally on switcher disconnect now takes effect instantly in the UI</li>
+                    <li>Fixed LED brightness briefly jumping to 100% after an ESP32 reboots — brightness is now always sent before the tally command</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.20/C200Controller-1.0.20.zip"
+                sparkle:edSignature="tUIgxx0d40k49xFinKCQU6jjqiB1sjguN1mVHEmNYgEomj1VcCBj/4gN+GHP+XYyIKoTGRKawvgv3qPbYQmuCg=="
+                length="2668634"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.19</title>
             <sparkle:version>18</sparkle:version>
             <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
