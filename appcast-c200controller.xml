@@ -7,6 +7,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.25</title>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.0.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 01 Mar 2026 23:30:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.25</h2>
+                <ul>
+                    <li>Tally is now much more robust on rough WiFi — a 5-second ping detects dead WebSocket connections and reconnects automatically (root cause of the camera 1 stuck tally)</li>
+                    <li>Rapid TSL cuts no longer pile up stale commands — each new tally cancels any in-flight command from the previous cut</li>
+                    <li>Smarter reconnect logic — deliberate socket resets no longer trigger a second reconnect attempt</li>
+                    <li>TSL stream parsing is more resilient — fragmented TCP packets no longer cause buffered data to be dropped</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.25/C200Controller-1.0.25.zip"
+                sparkle:edSignature="bwsaBQ81kwj9Qy8AKAZM5JqWvVxH72QW5JhwB9I9WHo06unFCV57Cocga5Oe6Fd8OOKtybGzzkcj1d7mS1XTBw=="
+                length="2677323"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.24</title>
             <sparkle:version>23</sparkle:version>
             <sparkle:shortVersionString>1.0.24</sparkle:shortVersionString>
