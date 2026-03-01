@@ -7,6 +7,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.31</title>
+            <sparkle:version>1.0.31</sparkle:version>
+            <sparkle:shortVersionString>1.0.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 01 Mar 2026 10:43:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>All tiles are now the same height — GPU and non-GPU tiles no longer differ in size</li>
+                    <li>Full IP address now visible in each tile</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/AVL-Dashboard/releases/download/v1.0.31/DashboardAgent-v1.0.31-universal.zip"
+                sparkle:edSignature="6PQ3MlfkJBaMFpQs9B731T9xwB05fcbhzECDEf/JpalV5EU3e+owBMK3SqqSDNU0OXsU/CA3HabzNW9/LPCpBw=="
+                length="1774139"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.30</title>
             <sparkle:version>1.0.30</sparkle:version>
             <sparkle:shortVersionString>1.0.30</sparkle:shortVersionString>
