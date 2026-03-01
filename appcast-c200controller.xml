@@ -7,6 +7,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.15</title>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 01 Mar 2026 14:00:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.15</h2>
+                <ul>
+                    <li>Tally status lights (PGM/PVW) now visible on the front of each camera tile — glow red or green in real time</li>
+                    <li>Tile back shows glowing LED visualization matching the physical LEDs on the ESP32 board</li>
+                    <li>Fixed: cameras showing a red recording border when camera is not connected to the ESP32</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.15/C200Controller-v1.0.15-aarch64.zip"
+                sparkle:edSignature="GZFzCcbwQ3fm80sqkgSStwH1svI/CVGWZezXrVZXw986+f67D+kw/ZAkaQu6VtlljK1rFFD2yDy5TAuSmlHjCA=="
+                length="2662118"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.14</title>
             <sparkle:version>13</sparkle:version>
             <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
