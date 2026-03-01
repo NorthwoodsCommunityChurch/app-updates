@@ -7,6 +7,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.2</title>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 01 Mar 2026 12:00:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Improved verse detection — period format (John 4.35), spoken ranges, standalone verses with chapter context</li>
+                    <li>Fixed action buttons always hidden under Pro7 capture panel — now in toolbar and always visible</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Whisper-Verses/releases/download/v1.1.2/WhisperVerses-v1.1.2-aarch64.zip"
+                sparkle:edSignature="xzw/+qefCVlxDC8ANjQJ/10zidXh7GxvKNTv/t3/FxV369dzQhsMC0wfuvcwXprlxeVb1C2cIPOgL0R9RdT0DA=="
+                length="13959835"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.1.1</title>
             <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
