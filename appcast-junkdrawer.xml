@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Junk Drawer Updates</title>
+        <link>https://northwoodscommunitychurch.github.io/app-updates/</link>
+        <description>Updates for Junk Drawer</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.0.2</title>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 06 Mar 2026 12:00:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Fix first-launch lockout on machines set up via Migration Assistant</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Junk-Drawer/releases/download/v1.0.2/JunkDrawer-v1.0.2-aarch64.zip"
+                sparkle:edSignature="XZcJ+TW97TzxvOaCCerq/5nt5UeP2P8fte5xSaIUcuKJwGxmYzrLT3fPjEhVe5XY6O1yCOG6Uf6XBSCZ/zm0AA=="
+                length="1141150"
+                type="application/octet-stream"/>
+        </item>
+
+    </channel>
+</rss>
