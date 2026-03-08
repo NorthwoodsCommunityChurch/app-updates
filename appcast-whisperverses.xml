@@ -7,6 +7,25 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.7</title>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 08 Mar 2026 10:45:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Fixed false verse detections caused by 2-character book aliases ("is" for Isaiah, "he" for Hebrews, "am" for Amos) matching common English words in live transcription</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Whisper-Verses/releases/download/v1.1.7/WhisperVerses-v1.1.7-aarch64.zip"
+                sparkle:edSignature="Gd4w0GPIFiNN9CiTTWP7nHW80m7dpkcy9XtrC/z5jadGrOFRFkLCfesD7n7N9IQdBhtlVQmXCkXTRpG5cMRDDQ=="
+                length="14008145"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.1.6</title>
             <sparkle:version>7</sparkle:version>
             <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
