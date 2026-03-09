@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>WayFind Updates</title>
+        <link>https://northwoodscommunitychurch.github.io/app-updates/</link>
+        <description>Updates for WayFind</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.0.1</title>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 08 Mar 2026 22:30:00 +0000</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>New app icon, add Sparkle auto-updates</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Northwoods-Wayfind/releases/download/v1.0.1/Northwoods-Wayfind-v1.0.1.zip"
+                sparkle:edSignature="BGSbuT3hTWSsaXbAxvCj0FTye3XN2i87zfO+66dyO0e4Aja5RtbJWnmNj9aaQDcRO8WaKxwFJ65gHRgYPyynDg=="
+                length="2551114"
+                type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
