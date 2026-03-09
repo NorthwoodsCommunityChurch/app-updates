@@ -7,6 +7,25 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.1</title>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 08 Mar 2026 12:00:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>New app icon, dark UI redesign, exclude Media Indexer</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Canopy/releases/download/v1.0.1/Canopy-v1.0.1-aarch64.zip"
+                sparkle:edSignature="BJf4zEV4/Jn99FEcijViy9A0oEeWSk6ihUpCmQ4B/mDrEyzFrdB7Kt1v3qeQsV3Gs7gHjcuvQZ/AYp1yZJHJDQ=="
+                length="2698477"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.0</title>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
