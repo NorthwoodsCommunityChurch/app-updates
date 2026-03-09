@@ -7,6 +7,25 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.1</title>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 09 Mar 2026 12:00:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>MIDI Automation v1.0.1</h2>
+                <ul>
+                    <li>Updated app icon</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/MIDI-Automation/releases/download/v1.0.1/MIDIAutomation-v1.0.1-aarch64.zip"
+                sparkle:edSignature="v0vJyk0ksvsAfS9s2VE5Rmk7xu4Dn7SfJfecdPB9LYGUDYp1YaoySm6ElQlim/OHscTEjhjAZyz17N7M5NVlDQ=="
+                length="4235675"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.0</title>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
