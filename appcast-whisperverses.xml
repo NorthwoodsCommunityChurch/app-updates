@@ -7,6 +7,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.8</title>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 10 Mar 2026 14:50:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Fixed crash when starting audio transcription caused by audio engine tap conflicts</li>
+                    <li>Fixed race condition in stop/restart cycle that could leave orphaned audio taps</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Whisper-Verses/releases/download/v1.1.8/WhisperVerses-v1.1.8-aarch64.zip"
+                sparkle:edSignature="KoyYBsSX7BrgHmbPgRrhE3xKekg7R496yVj+bUOsociy4uLswv6j3hrGNjy8s0V2gAvCiHC6t9WO0zmMJ3w7Dg=="
+                length="14013553"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.1.7</title>
             <sparkle:version>8</sparkle:version>
             <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
