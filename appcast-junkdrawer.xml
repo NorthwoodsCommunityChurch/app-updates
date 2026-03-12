@@ -7,6 +7,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.3</title>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Mar 2026 17:50:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Added "Launch at Login" toggle to the right-click context menu</li>
+                    <li>Fixed Settings window not opening from the context menu</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Junk-Drawer/releases/download/v1.0.3/JunkDrawer-v1.0.3-aarch64.zip"
+                sparkle:edSignature="WvNLtwYhzxtupTOERylRxWC0ogh22ozgio07k/Zz2KgIJOGTlqO7NQd6kK0xslt/UTGjP1sYmm0858rVsuAqCw=="
+                length="1143179"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.2</title>
             <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
