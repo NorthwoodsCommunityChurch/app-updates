@@ -7,6 +7,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.11</title>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.1.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 15 Mar 2026 14:30:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Fixed audio waveform bars freezing when transcription is active</li>
+                    <li>Fixed transcription failing on multi-channel audio devices (Dante Virtual Soundcard)</li>
+                    <li>Added detailed diagnostic logging for Pro7 slide capture failures</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Whisper-Verses/releases/download/v1.1.11/WhisperVerses-v1.1.11-aarch64.zip"
+                sparkle:edSignature="HmQJxljBXl3dvRY5oLFqenmkVK8rS9bUAPof3O6nqddhb5Uejm/fo74qjXDby0chVAoQeWX2D5rg3dKhHcN7Aw=="
+                length="14083380"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.1.10</title>
             <sparkle:version>11</sparkle:version>
             <sparkle:shortVersionString>1.1.10</sparkle:shortVersionString>
