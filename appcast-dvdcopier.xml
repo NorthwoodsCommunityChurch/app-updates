@@ -7,6 +7,46 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.4</title>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 16 Apr 2026 09:35:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>DVD Fallback Ripper: when MakeMKV can't read a disc, automatically remuxes VIDEO_TS VOB files via ffmpeg</li>
+                    <li>Refactored architecture with DiscCoordinator for cleaner state management</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/avl-dvd-copier/releases/download/v1.0.4/Disc-Copier-1.0.4.zip"
+                sparkle:edSignature="PnmqOWWv0/aQK8HDnIaOXtibIsTXbxPsV/qheHjsNfiz99qKEhm6NcNocyETGf4rjjeuVQoWlx1JAmQMYFhTCA=="
+                length="1976724"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
+            <title>Version 1.0.3</title>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 27 Mar 2026 12:48:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Audio CD ripping support</li>
+                    <li>Data CD copying support</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/avl-dvd-copier/releases/download/v1.0.3/Disc.Copier.zip"
+                sparkle:edSignature="u8pXcWaGtnXHkicGRnIfidFDXfnW7c0lL2YDYYm6MrLtSP9lnpuHPQO8UPMNHCq8qUy0jaCdPtGsGfO+LYqUDA=="
+                length="1911494"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.2</title>
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
