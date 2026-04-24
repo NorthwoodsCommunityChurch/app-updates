@@ -7,6 +7,48 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.29</title>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>1.0.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 24 Apr 2026 12:00:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.29 — firmware 1.0.15 bundled</h2>
+                <h3>Real-time tally</h3>
+                <ul>
+                    <li>Tally refresh rate raised from every 2.5s to every 250ms — LED now follows the switcher in real time (industry-standard pattern: refresh cadence itself is the reliability mechanism)</li>
+                    <li>Removed the 3-retry ladder that could stall a single cut for up to 3.4 seconds; worst-case tally latency on marginal WiFi is now ~550ms</li>
+                    <li>Tally dots on each camera tile now reflect what the app sent, not what the ESP32 echoed back — instant visual feedback</li>
+                    <li>Fixed a bug where the refresh-rate change wouldn't take effect until the app was restarted</li>
+                </ul>
+                <h3>Auto-reconnect</h3>
+                <ul>
+                    <li>Connect button removed — the app now auto-reconnects forever in the background with smart backoff (2s → 5s → 10s → 15s)</li>
+                    <li>Disconnected tiles show a "Reconnecting…" chip instead of a button</li>
+                </ul>
+                <h3>Firmware Update panel</h3>
+                <ul>
+                    <li>Redesigned as a clean grid: Controller | Current | New | Update | Status</li>
+                    <li>Boards are unselected by default — tick the ones you want to update</li>
+                    <li>Boards already running the bundled firmware show "Up to date" and can't be selected</li>
+                </ul>
+                <h3>OLED + Identify</h3>
+                <ul>
+                    <li>OLED rotated 90° clockwise for the reoriented tally boxes</li>
+                    <li>Default display now reads "Oh Hi" with WiFi and Ethernet status below it</li>
+                    <li>New "Identify" button on the camera's settings view — flashes the tally LEDs red+green for 5 seconds so you can find a physical box</li>
+                    <li>A live tally command during identify cancels the blink immediately (program always wins)</li>
+                </ul>
+                <p>After installing this update, press ⌘⇧U to push firmware 1.0.15 to all boards over the air.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.29/C200Controller-v1.0.29-aarch64.zip"
+                sparkle:edSignature="dteCc2hJ5RsgCX2aRPFa58/+ASZFsc/MRNAd4pJNCpvO5vfRk8YmOXYKkW5/VqbBPbtA33AtzzHaMMD40MQoCw=="
+                length="2759325"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.28</title>
             <sparkle:version>27</sparkle:version>
             <sparkle:shortVersionString>1.0.28</sparkle:shortVersionString>
