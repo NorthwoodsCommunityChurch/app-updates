@@ -7,6 +7,39 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.33</title>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>1.0.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 26 Apr 2026 06:50:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.33 — firmware 1.0.22 bundled</h2>
+                <h3>Reliability + crash fixes for live broadcast use</h3>
+                <ul>
+                    <li><b>Crash fix</b>: heavy switcher cuts no longer crash the app. Per-index TSL dedup skips redundant packets before they reach the main actor — switchers can flood thousands of duplicate packets per second without effect.</li>
+                    <li><b>Camera settings no longer flicker on transient WebSocket drops.</b> A WS hiccup no longer hides the live Canon settings — last-known values stay visible until an HTTP poll positively confirms the camera is offline.</li>
+                    <li><b>OTA firmware updates are reliable.</b> The "Starting…" stuck state is gone — the app now detects success via firmware-version change instead of trusting the (sometimes-buggy) OTA status endpoint. Works correctly even on field firmware that lies about its OTA progress.</li>
+                    <li>OTA error message softened to "Update didn't start — try again" for non-technical operators.</li>
+                </ul>
+                <h3>Firmware 1.0.22 (bundled — push via ⌘⇧U)</h3>
+                <ul>
+                    <li>Lock-free <code>/api/ota/status</code> handler — fixes the "stuck on Starting" reporting bug.</li>
+                    <li>WiFi RSSI cached by the OLED task — eliminates a tens-of-ms driver stall in the WS broadcast hot path that was causing settings flicker and slow tally on cameras with active Canon sessions.</li>
+                    <li>Tally LED no longer flashes 100% after a board reboot (boot default lowered from 255 to 25).</li>
+                    <li>Removed PRG/PVW text from the OLED — the LED itself is the indicator.</li>
+                    <li>Live RSSI exposed in the WS broadcast so the OLED preview tile mirrors the physical bars.</li>
+                    <li>Stale-fd headroom: <code>MAX_WS_CLIENTS</code> bumped 4 → 8.</li>
+                </ul>
+                <p>After installing, press ⌘⇧U to push firmware 1.0.22 to every board.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.33/C200Controller-1.0.33.zip"
+                sparkle:edSignature="Jnfq8swF+up/l9cpkmh70JoMyCJeUD+xn0WiqY7lNKrQzwWgDBLdYi44EJ9Fk5s4+rELNVbgKn5Z+QmiA77+AA=="
+                length="2761170"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.29</title>
             <sparkle:version>28</sparkle:version>
             <sparkle:shortVersionString>1.0.29</sparkle:shortVersionString>
