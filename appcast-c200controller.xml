@@ -7,6 +7,34 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.34</title>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>1.0.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 28 Apr 2026 15:30:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.34 — firmware 1.0.23 bundled</h2>
+                <h3>WiFi roaming and better AP selection</h3>
+                <ul>
+                    <li><b>All-channel scan at boot</b> — boxes now evaluate every WiFi channel and pick the strongest matching AP, instead of grabbing whichever one responds first. Adds ~2s to boot but means a box near a strong AP no longer associates with a weak one across the room.</li>
+                    <li><b>Active roaming</b> — when current AP signal drops below -65 dBm, the box re-scans and reassociates with whichever AP has the strongest signal. 30-second cooldown prevents thrashing between two APs at threshold.</li>
+                    <li>Roam events logged at WARN level for diagnostics.</li>
+                </ul>
+                <h3>Firmware 1.0.23 (bundled — push via &#8984;&#8679;U)</h3>
+                <ul>
+                    <li>Same WiFi roaming changes above.</li>
+                    <li>Required after switching ESP32 boards to external antennas — better AP selection makes the antenna upgrade actually useful in venues with multiple APs.</li>
+                </ul>
+                <p>After installing, press &#8984;&#8679;U to push firmware 1.0.23 to every board.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.34/C200Controller-1.0.34.zip"
+                sparkle:edSignature="1nefzMSp7srKh6mTILWT4cziC8FSFwhzVfWkEu/0EIPsMn5QDo3mCeFrUOrcHs7VP8vHOlYsbW8RyQ5i9fFCDA=="
+                length="2759466"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.33</title>
             <sparkle:version>32</sparkle:version>
             <sparkle:shortVersionString>1.0.33</sparkle:shortVersionString>
