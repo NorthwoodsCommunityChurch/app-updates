@@ -7,6 +7,30 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.36</title>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>1.0.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 29 Apr 2026 13:00:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.36 — firmware 1.0.23 bundled</h2>
+                <h3>Tally fix: Swap Program/Preview toggle</h3>
+                <p>The TSL UMD spec doesn't mandate which tally bit (T1 or T2) is Program vs Preview. The app defaulted to ATEM/vMix convention (T1=PGM, T2=PVW), but <b>Ross Ultrix Carbonite</b> and some Roland switchers ship them inverted. Symptom: each camera shows PGM → quick PVW → PGM → off instead of the correct PVW → PGM → off.</p>
+                <ul>
+                    <li>New <b>"Swap Program/Preview"</b> toggle in Tally Settings (&#8984;&#8679;T)</li>
+                    <li>Enable if your switcher inverts T1/T2 (Ross Ultrix users: turn this on)</li>
+                    <li>Default off — matches ATEM, vMix, OBS</li>
+                </ul>
+                <p>Firmware 1.0.23 unchanged from v1.0.34/v1.0.35.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.36/C200Controller-1.0.36.zip"
+                sparkle:edSignature="LzZ6v45lNISakvuZI1qELRnK9a3blfe5OpgzWwxbaF8S1axnSazjjUBiqP9YK1QicCZSw6yJqqfa+08GaKSPAA=="
+                length="2762729"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.35</title>
             <sparkle:version>34</sparkle:version>
             <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
