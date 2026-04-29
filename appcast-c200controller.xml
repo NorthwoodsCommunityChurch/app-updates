@@ -7,6 +7,29 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.37</title>
+            <sparkle:version>36</sparkle:version>
+            <sparkle:shortVersionString>1.0.37</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 29 Apr 2026 13:50:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.37 — firmware 1.0.23 bundled</h2>
+                <h3>Tally flicker fix for rapid cut sequences</h3>
+                <p>On rapid cut sequences (esp. with Ross Ultrix in auto-PVW-tracking mode), each camera flickered through PGM → PVW → off → PVW instead of the clean PVW → PGM → off operators expect.</p>
+                <ul>
+                    <li><b>Stopped re-sending brightness on every tally update.</b> Brightness is already restored on WS connect, so re-sending it during a cut just doubled HTTP traffic and created Task cancellation races. Removed brightness from the per-cut path.</li>
+                    <li><b>Added 150 ms OFF debounce.</b> Ross emits a transient OFF packet between a camera going to PGM and the follow-up auto-PVW. Debouncing the OFF transition absorbs that blip — if a new active state arrives within 150 ms, the OFF is cancelled and the new state applies cleanly. Genuine OFFs apply with imperceptible delay.</li>
+                </ul>
+                <p>Leave the "Swap Program/Preview" toggle OFF for Ross, ATEM, vMix, OBS — Ross uses standard convention. Firmware 1.0.23 unchanged.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.37/C200Controller-1.0.37.zip"
+                sparkle:edSignature="LQBqn+AvFKDTrSa1HqT7H4IJBn321N8AumXE6UCd4BpRMXIayZoenv9opMah6jH2U1JzZNrdyXQM9Uwu/g43Dw=="
+                length="2761968"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.36</title>
             <sparkle:version>35</sparkle:version>
             <sparkle:shortVersionString>1.0.36</sparkle:shortVersionString>
