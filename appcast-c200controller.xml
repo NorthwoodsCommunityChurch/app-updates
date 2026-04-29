@@ -7,6 +7,32 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.35</title>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 29 Apr 2026 11:45:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.0.35 — firmware 1.0.23 bundled</h2>
+                <h3>Crash fix: CFNetwork loader-thread race</h3>
+                <p>Fixed a long-running crash where the app would segfault inside Apple's URL loader after several hours of polling. Three places in CameraManager and one in FirmwareUpdateManager were creating new <code>URLSession(configuration:)</code> instances per call without ever invalidating them. URLSession holds its delegate forever unless explicitly invalidated, so each call leaked a session. After hours of Bonjour discovery and Camera Positions pushes, accumulated leaked sessions eventually triggered a race in CFNetwork's internal data structures.</p>
+                <ul>
+                    <li>CameraManager now uses a single long-lived URLSession invalidated on deinit</li>
+                    <li>FirmwareUpdateManager properly invalidates its per-update session via <code>defer</code></li>
+                    <li>Per-call timeouts moved to <code>URLRequest.timeoutInterval</code> (request-scoped, not session-scoped)</li>
+                </ul>
+                <p>This was a pre-existing latent bug, not a regression. Recommend updating for any installation that runs continuously.</p>
+                <h3>Firmware 1.0.23 (unchanged from v1.0.34)</h3>
+                <p>If you already pushed firmware 1.0.23 from v1.0.34, no need to push again.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.0.35/C200Controller-1.0.35.zip"
+                sparkle:edSignature="HfS/2g2LonWEIk6HnJOOPAN7QIvQXBjFFuSUzFwobj45eZi3I+Yar1UfvOszGUpYD2cW91F7H5E7oFtFMgr2Cw=="
+                length="2759455"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.34</title>
             <sparkle:version>33</sparkle:version>
             <sparkle:shortVersionString>1.0.34</sparkle:shortVersionString>
