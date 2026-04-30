@@ -7,6 +7,25 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.32</title>
+            <sparkle:version>1.0.32</sparkle:version>
+            <sparkle:shortVersionString>1.0.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 30 Apr 2026 12:00:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Fix CPU usage occasionally pegging near 100% after sleep/wake (per-CPU counter underflow)</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/AVL-Dashboard/releases/download/v1.0.32/DashboardAgent-v1.0.32-universal.zip"
+                sparkle:edSignature="QuiV6JLvKAH84KulF9iU3zV36ZdlIXThSHU1T8jJwDNPXK2HLKEfc4N/ZB2Rs25FcwppeuvSST9pK8xGgQXnDg=="
+                length="1781023"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.31</title>
             <sparkle:version>1.0.31</sparkle:version>
             <sparkle:shortVersionString>1.0.31</sparkle:shortVersionString>

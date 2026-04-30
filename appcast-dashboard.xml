@@ -7,6 +7,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.32</title>
+            <sparkle:version>1.0.32</sparkle:version>
+            <sparkle:shortVersionString>1.0.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 30 Apr 2026 12:00:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Per-machine toggles for RAM ring, disk speed ring, and GPU rings (flip the card)</li>
+                    <li>Linux agent support (Storinator, etc.)</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/AVL-Dashboard/releases/download/v1.0.32/Dashboard-v1.0.32-universal.zip"
+                sparkle:edSignature="HyDjvyQaL3u9RVPaTEoYY3E9OmLC6+6hHs3eL3TnJniMM8QWh+HN5w3C7ybjKuERlDSP56KIKrCO0+AFE8sfDg=="
+                length="2335927"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.31</title>
             <sparkle:version>1.0.31</sparkle:version>
             <sparkle:shortVersionString>1.0.31</sparkle:shortVersionString>
