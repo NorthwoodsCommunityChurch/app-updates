@@ -7,6 +7,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.33</title>
+            <sparkle:version>1.0.33</sparkle:version>
+            <sparkle:shortVersionString>1.0.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 01 May 2026 11:00:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>All metric toggles (GPU, RAM, Disk Speed) now appear on every machine. Toggles are dimmed when the agent doesn't report that metric.</li>
+                    <li>Shows GPU rings for Windows machines with NVIDIA cards (when paired with Agent v1.0.33+)</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/AVL-Dashboard/releases/download/v1.0.33/Dashboard-v1.0.33-universal.zip"
+                sparkle:edSignature="+uHjc0HYVogd2Q4gZguR15kv/KjI+CIA/iM5jNj2hkm8bFNOLeTV0mrRs2CvpYxkb07YKF3tAbb0Ae4J6hjzCQ=="
+                length="2339125"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.32</title>
             <sparkle:version>1.0.32</sparkle:version>
             <sparkle:shortVersionString>1.0.32</sparkle:shortVersionString>
