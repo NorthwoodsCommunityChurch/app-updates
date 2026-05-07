@@ -7,6 +7,42 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.2.0</title>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 06 May 2026 20:45:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <h3>Major UI redesign — broadcast cockpit aesthetic</h3>
+                <ul>
+                    <li>App-wide design system — Pantone-backed brand colors, type scale, spacing rhythm</li>
+                    <li>Custom chrome bar replaces window toolbar: wordmark, Pro7 status LED, LIVE clock, action row</li>
+                    <li>Verse cards with full-bleed brand-blue color blocks as the signature element</li>
+                    <li>LED-segment audio meter (green→gold→coral) replaces previous bouncy box meter</li>
+                    <li>Bespoke idle hero (concentric tally rings + chunky LISTEN button) and catch-feed empty state</li>
+                    <li>Settings window restyled to match — ALL-CAPS section labels, dark text fields, brand-blue chunky buttons</li>
+                </ul>
+                <h3>Chroma key fix — slides now actually transparent</h3>
+                <ul>
+                    <li>Pro7 thumbnail endpoint now requested with thumbnail_type=png (was JPEG, no alpha possible)</li>
+                    <li>Keyer calibrated to Pro7's real (255, 64, 255) chroma output (not pure #FF00FF)</li>
+                    <li>Rewrote keyOutMagenta on CGContext — fixes alpha-channel issue producing all-zero output</li>
+                </ul>
+                <h3>Other fixes</h3>
+                <ul>
+                    <li>Launch-time Pro7 connection failure no longer pops a modal error — chrome status LED communicates state alone</li>
+                    <li>Title bar collapses cleanly into the chrome bar — no empty band above</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Whisper-Verses/releases/download/v1.2.0/WhisperVerses-v1.2.0-aarch64.zip"
+                sparkle:edSignature="Mg1+Zh1WMSwJFsIQm1DA+uISbg8A+SMDPV4CxNDTgOJvNjg3lFSLZ+LInKmDtae7+ozNg9gpiTWnNfAuZIi/CQ=="
+                length="14160151"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.1.11</title>
             <sparkle:version>12</sparkle:version>
             <sparkle:shortVersionString>1.1.11</sparkle:shortVersionString>
