@@ -7,6 +7,32 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.2.1</title>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 10 May 2026 11:35:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <h3>Live capture stability — resolves "Failed to load slides" failures</h3>
+                <ul>
+                    <li>In-flight load coalescing: concurrent lookups for the same book now share one Pro7 request instead of racing</li>
+                    <li>Pro7 request timeout extended (10s → 30s) and retry budget bumped from 3 to 5 attempts with exponential backoff</li>
+                    <li>Background warmup pre-loads all 66 Bible books after initial indexing — live captures no longer pay the cold-load tax during sermon</li>
+                </ul>
+                <h3>Capture preview UI</h3>
+                <ul>
+                    <li>Catch-feed thumbnails now sit on a checkerboard backdrop with a thin white border, making transparency unambiguous (previously a brown gradient that read as a chroma-key artifact)</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Whisper-Verses/releases/download/v1.2.1/WhisperVerses-v1.2.1-aarch64.zip"
+                sparkle:edSignature="yL86ErL1MmAgMsDpKlttWw86aXA5b89B+MKfxlKmXtkFXz0G2h3uxn8D4WzVuC+0+Tz5YRnzbnmlfIC2jWtZCA=="
+                length="14175820"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.2.0</title>
             <sparkle:version>13</sparkle:version>
             <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
