@@ -7,6 +7,36 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.0</title>
+            <sparkle:version>38</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 10 May 2026 23:28:40 -0500</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.1.0 — tally reliability overhaul (firmware 1.1.0 bundled)</h2>
+                <p>Today's service uncovered three compounding bugs that explained chronic tally unreliability — two in firmware, one in the dashboard. By end of service, 3 of 5 boards were silently dead. This release fixes all three.</p>
+                <h3>Firmware (1.1.0, bundled — push via Firmware Update ⌘⇧U after install)</h3>
+                <ul>
+                    <li><b>WiFi modem-sleep disabled.</b> Default <code>WIFI_PS_MIN_MODEM</code> parked the radio between DTIM beacons (100–300 ms) — the exact RTT-jitter signature seen on Cam 3 (84–443 ms, stddev 179). Now <code>WIFI_PS_NONE</code>.</li>
+                    <li><b>Reconnect cap removed.</b> Previously the board gave up after 10 disconnects and stayed bricked until power-cycled (this was Cam 4's signature outage). Now reconnects forever, with self-reboot if WiFi stays down &gt;30 s while Ethernet is up.</li>
+                    <li><b>Watchdog no longer forces LED to amber.</b> The earlier 8 s "lost contact → force amber" behavior turned should-be-dark cameras amber on degraded WiFi, lying to talent. LED now holds last commanded state; dashboard owns staleness.</li>
+                </ul>
+                <h3>Dashboard</h3>
+                <ul>
+                    <li><b>Tally request deduplication.</b> The 250 ms refresh tick was cancelling every in-flight HTTP request before it could complete on slow boards (rtt_ms=251 fail:cancelled in a loop, state never landing). Identical-state refresh ticks no longer pre-empt the in-flight request.</li>
+                    <li><b>Timeout 0.4 s → 1.0 s</b> with a single retry on real <code>URLError.timedOut</code> only (never on cancellation). Real WiFi RTT routinely exceeds 400 ms even on healthy links under load.</li>
+                    <li><b>Default TSL listener port 5201 → 5200</b> to match the Ross Ultrix Carbonite at Northwoods. Existing settings persist unchanged.</li>
+                </ul>
+                <p><b>Coming in v1.2:</b> boards will become their own TSL receivers — dashboard pushes index assignment, ESP32 listens directly to the switcher. Removes the Mac from the tally critical path.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.1.0/C200Controller-1.1.0.zip"
+                sparkle:edSignature="IUyQSfdJIyTa5V8rJcw3sq0MeCrLLTO+Jp5KVwz77AhSsZmo21wjYLKvhWvQVFAs+NNSnWKXGLcLxe8vA7l0CQ=="
+                length="2764554"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.37</title>
             <sparkle:version>36</sparkle:version>
             <sparkle:shortVersionString>1.0.37</sparkle:shortVersionString>
