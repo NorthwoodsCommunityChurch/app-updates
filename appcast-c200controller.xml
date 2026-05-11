@@ -7,6 +7,30 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.2.1</title>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 11 May 2026 12:55:50 -0500</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.2.1 — single tally index per camera</h2>
+                <p>Small UI cleanup on top of v1.2.0. Firmware unchanged (still 1.2.0 bundled — no need to re-flash boards).</p>
+                <h3>Why</h3>
+                <p>The board firmware only ever applied one tally index, but the dashboard let you configure several. Any extras you added were silently ignored on the board side. Removed the option.</p>
+                <h3>Changes</h3>
+                <ul>
+                    <li><b>Single-index picker.</b> Tap a row to apply and dismiss. "None" row clears the assignment.</li>
+                    <li><b>Data model:</b> tslIndices: [Int] → tslIndex: Int (0 = unassigned). Existing configurations migrate on first launch — the lowest configured index wins.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.2.1/C200Controller-1.2.1.zip"
+                sparkle:edSignature="QQejPpagfM/yoYws1QpDVIQJUMDjTf+5FPF7gC8V7ysly+aqPCOZL3wcKB4zsRdTSyEkaakk5UVr0ktqlHS8BQ=="
+                length="2756894"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.2.0</title>
             <sparkle:version>39</sparkle:version>
             <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
