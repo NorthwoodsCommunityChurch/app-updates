@@ -7,6 +7,43 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.2.0</title>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 10 May 2026 23:43:42 -0500</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.2.0 — boards become TSL endpoints (firmware 1.2.0 bundled)</h2>
+                <p><b>Phase 2.</b> The dashboard is no longer in the tally critical path. Each ESP32 board now listens directly to the switcher's TSL UMD feed and applies LED state itself.</p>
+                <h3>Required action after updating</h3>
+                <ul>
+                    <li><b>Flash firmware 1.2.0</b> to every board via Firmware Update (⌘⇧U). Earlier firmware does not accept the new tsl_config message.</li>
+                    <li><b>Configure the Ross Ultrix Carbonite</b> to send one TSL output per board IP (5 outputs total at Northwoods) on port 5200. The dashboard still listens too, so its existing destination stays.</li>
+                </ul>
+                <h3>Firmware (1.2.0)</h3>
+                <ul>
+                    <li>New TSL TCP listener task per board. Filters by configured tally index, applies "program wins" resolution and the 150 ms OFF debounce (Ross transient-OFF absorber).</li>
+                    <li>NVS-backed config (<code>tally_cfg</code> namespace) holds index/port/swap across reboots.</li>
+                    <li>WebSocket handler accepts <code>{"type":"tsl_config","index":N,"port":P,"swap":B}</code> from the dashboard, persists to NVS, restarts the listener.</li>
+                    <li><code>/api/status</code> now exposes <code>tsl_index</code>, <code>tsl_port</code>, <code>tsl_swap</code>.</li>
+                </ul>
+                <h3>Dashboard</h3>
+                <ul>
+                    <li>Removed the entire HTTP tally relay (per-cut POSTs, 250 ms refresh timer, cancellation gymnastics). Camera.updateTallyState only updates the tile UI now.</li>
+                    <li>New auto-push of tsl_config over WS on every handshake — boards self-heal after any reboot or factory reset without manual setup.</li>
+                    <li>Changing TSL index / port / swap in Tally Settings instantly re-pushes to all boards.</li>
+                </ul>
+                <h3>Known limitation</h3>
+                <p>Firmware applies a single tally index per board. Multi-index cameras get the lowest index on the board side (dashboard tile UI still ORs across all). Phase 2.1 will expand if anyone hits it.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.2.0/C200Controller-1.2.0.zip"
+                sparkle:edSignature="C2oxxecdkMlPXj5ckUvq/wiie1ryYBCvNTmd2roV4eUkm8dTSEuRdol58QjIRfDrx3Ji3t1TFpofZwrT/aLeAA=="
+                length="2759832"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.1.0</title>
             <sparkle:version>38</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
