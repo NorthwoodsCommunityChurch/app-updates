@@ -7,6 +7,43 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.2.10</title>
+            <sparkle:version>41</sparkle:version>
+            <sparkle:shortVersionString>1.2.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 17 May 2026 12:52:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>C200 Controller v1.2.10 — tally LED hardening (firmware 1.2.10 bundled)</h2>
+                <p>A stale dashboard build on the LAN was HTTP-pushing tally state at ~5 Hz, overriding each box's own TSL listener and pinning LEDs to the wrong color (Cam 1 stuck green while held live on PGM). New diagnostic counters in firmware 1.2.8 (<code>setled_program</code>, <code>setled_preview</code>) caught it. This release closes the door.</p>
+                <h3>Required action after updating</h3>
+                <ul>
+                    <li><b>Press ⌘⇧U to push firmware 1.2.10</b> to every box. Until you do, boxes still on 1.2.4 remain vulnerable to the ghost-write if any stale app on the LAN is hitting their <code>/api/tally/preview</code> endpoint.</li>
+                </ul>
+                <h3>Firmware (1.2.10, bundled)</h3>
+                <ul>
+                    <li><code>/api/tally/{program|preview|off|both}</code> removed. The box LED is now driven exclusively by its own TSL listener.</li>
+                    <li><code>/api/tally/brightness/{N}</code> removed. Brightness is a compile-time const at ~1 % (talent-friendly dim level).</li>
+                    <li>New diagnostic fields in <code>/api/status</code>: <code>tsl_matched_program</code>, <code>tsl_matched_preview</code>, <code>setled_program</code>, <code>setled_preview</code>, <code>tsl_last_matched_state</code>, <code>tsl_dedup_my_index</code>.</li>
+                    <li>Per-index dedup table and 150 ms OFF debounce mirror the dashboard's <code>TSLClient.lastTallyState</code> + <code>updateTallyState</code> exactly.</li>
+                    <li>Default UMD index now equals the box's <code>CAMERA_NUMBER</code> (1-to-1 out of the box).</li>
+                </ul>
+                <h3>Dashboard</h3>
+                <ul>
+                    <li>LED Brightness slider removed from Tally Settings.</li>
+                    <li><code>sendBrightness</code> and the rate-limited reconnect-resend deleted — nothing in the app posts brightness anymore.</li>
+                    <li>Version jumped from 1.0.27 to 1.2.10 to match firmware versioning going forward.</li>
+                </ul>
+                <h3>Known issue (not a regression)</h3>
+                <p>OLED on each box may show only "Oh Hi / WiFi" with no camera/op/lens text. Firmware path is verified working (manual <code>POST /api/display</code> populates instantly) — dashboard is pushing empty op/lens strings, likely a Camera Positions service config issue. Tracked for a future session.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.2.10/C200Controller-1.2.10.zip"
+                sparkle:edSignature="52vecwfoo/w+mAUVfsX24X4X7CgNUR3AekJ0Fs6XXLjJipkRQEhUCLoxr9ZZ74PmVTIlPa7qtSGtldeTI4HoBw=="
+                length="3008625"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.2.1</title>
             <sparkle:version>40</sparkle:version>
             <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
