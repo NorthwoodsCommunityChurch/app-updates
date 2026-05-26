@@ -7,6 +7,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.2.2</title>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 26 May 2026 15:45:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Manuscript follower now reliably tracks the speaker — fixed a word-normalization bug that froze the cursor and flagged everything off-script (live confidence ~0.15 → ~0.64).</li>
+                    <li>Durable follow sessions: a network blip or a sleeping device no longer ends the session.</li>
+                    <li>New "Start New Session" prompt on the upload page — take over an active session instead of only joining it.</li>
+                    <li>Verse picker: multi-selecting verses no longer highlights surrounding page elements; the picker drawer slides smoothly.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Whisper-Verses/releases/download/v1.2.2/WhisperVerses-v1.2.2-aarch64.zip"
+                sparkle:edSignature="gGx23aK+4xsjTGj9WRJ67Cffqmr2Y9J80EBPqbZWYw8mJGQpe/f7SXyll8KjQ46zoK6A3i0d7zdecDB7QF1eDg=="
+                length="1958428"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.2.1</title>
             <sparkle:version>14</sparkle:version>
             <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
