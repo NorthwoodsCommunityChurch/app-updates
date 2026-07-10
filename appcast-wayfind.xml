@@ -7,6 +7,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.3</title>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 10 Jul 2026 16:00:00 +0000</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Displays now auto-reload when the page updates — new releases reach every screen within about a minute, no per-machine action</li>
+                    <li>New "Refresh All Displays" menu item to force a reload on demand</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Northwoods-Wayfind/releases/download/v1.0.3/Northwoods-Wayfind-v1.0.3.zip"
+                sparkle:edSignature="BVVhy+6hAXHPOSROYQvLQAPRrXTvbTxIOl7luVUG09wEunk3CsPJ4yg29KFSF6sDdjYojZd5MkGAzKuLcx6BAA=="
+                length="2572765"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.2</title>
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
