@@ -7,6 +7,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.2.0</title>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 29 Jul 2026 17:15:00 +0000</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>New configuration web app — manage the API key, per-room displays, hidden events, and welcome slides from any browser on the network</li>
+                    <li>Menu bar simplified to: Check for Updates, Open Configuration, Quit</li>
+                    <li>Fixed Today's Events list clipping when full — long lists now page automatically</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Northwoods-Wayfind/releases/download/v1.2.0/Northwoods-Wayfind-v1.2.0.zip"
+                sparkle:edSignature="TlhK98a3qirvqBpM/m0ahko+dnPXY9kH7JK5MckFm4A29V/2KYpESZb4Hghaqv67m+GzSKCjamATQmvVv3DtBQ=="
+                length="2870726"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.1.0</title>
             <sparkle:version>5</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
