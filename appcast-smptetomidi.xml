@@ -7,12 +7,11 @@
         <language>en</language>
 
         <!-- First entry lands with the first release published against this
-             feed (v1.0.2+). v1.0.1 shipped pointing at the legacy shared
-             appcast.xml and was never published to any feed; when releasing
-             the first version from this file, ALSO add the same <item> (plus
-             sparkle:bundleIdentifier com.northwoodschurch.smptetomidi) to the
-             legacy appcast.xml so existing v1.0.1 installs get offered the
-             update and migrate onto this feed. -->
+             feed (v1.0.2+). Note: shipped v1.0.1 builds contain NO
+             SUFeedURL/SUPublicEDKey at all (GENERATE_INFOPLIST_FILE dropped
+             the custom keys), so v1.0.1 installs cannot auto-update from any
+             feed — they need one manual update, after which this feed takes
+             over. No legacy-appcast mirroring is needed. -->
 
     </channel>
 </rss>

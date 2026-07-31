@@ -32,12 +32,12 @@ repo whenever you publish a new version of *any* Northwoods Mac app. Stack: stat
 ### 2026-07-31 — work done from SMPTE <-> MIDI
 
 - Added `appcast-smptetomidi.xml` (SMPTE to MIDI, bundle `com.northwoodschurch.smptetomidi`) —
-  currently an empty channel skeleton. The app's v1.0.1 shipped pointing at the legacy shared
-  `appcast.xml` and was never published to any feed; its `SUFeedURL` now points at the new
-  per-app file for builds going forward.
-- When SMPTE to MIDI's next release (v1.0.2+) is published: add the `<item>` to
-  `appcast-smptetomidi.xml` AND mirror it into legacy `appcast.xml` with
-  `sparkle:bundleIdentifier` so existing v1.0.1 installs migrate onto the per-app feed.
+  currently an empty channel skeleton. Builds going forward point their `SUFeedURL` here.
+- **Correction (same day):** inspecting the shipped v1.0.1 zip showed it contains NO
+  SUFeedURL/SUPublicEDKey at all (the GENERATE_INFOPLIST_FILE trap from SPARKLE-GUIDE.md —
+  `INFOPLIST_KEY_*` build settings silently drop custom keys). So v1.0.1 installs cannot
+  auto-update from ANY feed; no legacy-appcast mirroring is needed at the v1.0.2 release.
+  v1.0.1 machines get one manual update, then this feed takes over.
 - Corrected the inventory table: `appcast-midiautomation.xml` is the separate MIDI Automation
   app (`NorthwoodsCommunityChurch/MIDI-Automation`), not SMPTE↔MIDI as the old label implied.
 - Heads-up found while working: legacy `appcast.xml` items carry **no `sparkle:bundleIdentifier`**,
