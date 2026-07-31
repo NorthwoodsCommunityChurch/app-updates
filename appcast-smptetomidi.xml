@@ -6,12 +6,39 @@
         <description>Updates for SMPTE to MIDI</description>
         <language>en</language>
 
-        <!-- First entry lands with the first release published against this
-             feed (v1.0.2+). Note: shipped v1.0.1 builds contain NO
-             SUFeedURL/SUPublicEDKey at all (GENERATE_INFOPLIST_FILE dropped
-             the custom keys), so v1.0.1 installs cannot auto-update from any
-             feed — they need one manual update, after which this feed takes
-             over. No legacy-appcast mirroring is needed. -->
+        <!-- Note: shipped v1.0.1 builds contain NO SUFeedURL/SUPublicEDKey at
+             all (GENERATE_INFOPLIST_FILE dropped the custom keys), so v1.0.1
+             installs cannot auto-update from any feed — they need one manual
+             update to v1.0.2, after which this feed takes over. No
+             legacy-appcast mirroring is needed. -->
+
+        <item>
+            <title>Version 1.0.2</title>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 31 Jul 2026 10:40:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Correct MTC timing — quarter-frames now sent at the spec rate with properly latched sequences, so downstream receivers track smoothly</li>
+                    <li>Full-frame cue messages on chase start and timecode jumps (drop-frame aware)</li>
+                    <li>Signal-loss watchdog — on LTC dropout the app drops lock and stops MTC output instead of freewheeling stale timecode, and re-cues automatically when signal returns</li>
+                    <li>Sample rate follows the input device automatically; the manual picker (which could decode at the wrong speed) is gone</li>
+                    <li>Auto-update restored — v1.0.1 shipped without Sparkle keys and could never update itself</li>
+                    <li>Start failures now show an error dialog instead of failing silently</li>
+                </ul>
+                <h2>New</h2>
+                <ul>
+                    <li>Apple-native UI redesign and the app's first icon</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/SMPTE-MIDI/releases/download/v1.0.2/SMPTEtoMIDI-v1.0.2-aarch64.zip"
+                sparkle:edSignature="yXTDOkykyNz+X3hcQq4P3wE4DXlfHau3b/LacSRqDlCRlUpeglADLDptKczPYVKX5pGl02VZFLqZsCL5T9M1Bg=="
+                length="1409749"
+                type="application/octet-stream"/>
+        </item>
 
     </channel>
 </rss>

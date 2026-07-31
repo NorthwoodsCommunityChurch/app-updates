@@ -43,7 +43,10 @@ repo whenever you publish a new version of *any* Northwoods Mac app. Stack: stat
 - Heads-up found while working: legacy `appcast.xml` items carry **no `sparkle:bundleIdentifier`**,
   so any app still pointing at it may be offered another app's update (same org signing key —
   it would install). Worth auditing which installs still use the shared feed.
-- **Verify:** `curl -s https://northwoodscommunitychurch.github.io/app-updates/appcast-smptetomidi.xml | head -8`
+- **2026-07-31 (later):** SMPTE to MIDI v1.0.2 (build 2) published — `appcast-smptetomidi.xml`
+  now has its first real `<item>`. That build is also the first one to actually contain
+  Sparkle keys, so auto-update works from v1.0.2 forward.
+- **Verify:** `curl -s https://northwoodscommunitychurch.github.io/app-updates/appcast-smptetomidi.xml | grep shortVersionString`
 
 ## What it does
 Static file host. There is no code, no build, and nothing to run locally. The repo is published
@@ -99,7 +102,7 @@ Per-app appcast inventory (file → channel title → # of published versions):
 | `appcast-minfancontrol.xml` | Minimum Fan Control | 1 |
 | `appcast-photoingest.xml` | Photo Ingest | 1 |
 | `appcast-prodcamerapositions.xml` | Production Camera Positions | 1 |
-| `appcast-smptetomidi.xml` | SMPTE to MIDI | 0 (skeleton — first entry at v1.0.2) |
+| `appcast-smptetomidi.xml` | SMPTE to MIDI | 1 |
 | `appcast-wayfind.xml` | Northwoods WayFind | 1 |
 
 ## Key identifiers
