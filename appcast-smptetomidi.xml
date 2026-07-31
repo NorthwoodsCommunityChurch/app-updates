@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>SMPTE to MIDI Updates</title>
+        <link>https://northwoodscommunitychurch.github.io/app-updates/</link>
+        <description>Updates for SMPTE to MIDI</description>
+        <language>en</language>
+
+        <!-- First entry lands with the first release published against this
+             feed (v1.0.2+). v1.0.1 shipped pointing at the legacy shared
+             appcast.xml and was never published to any feed; when releasing
+             the first version from this file, ALSO add the same <item> (plus
+             sparkle:bundleIdentifier com.northwoodschurch.smptetomidi) to the
+             legacy appcast.xml so existing v1.0.1 installs get offered the
+             update and migrate onto this feed. -->
+
+    </channel>
+</rss>
