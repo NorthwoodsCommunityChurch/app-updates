@@ -7,6 +7,29 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.0</title>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 04 Aug 2026 12:09:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Native Mac look — sidebar, toolbar search, and grouped app rows that follow your system appearance and accent colour</li>
+                    <li>Apps with updates are pinned above the catalog, with Update All</li>
+                    <li>Version and download size shown on every row, plus a ⋯ menu for Show in Finder, View Releases, and Uninstall</li>
+                    <li>Real first-run and error screens</li>
+                    <li>App names no longer render as "Avl Dashboard" or "Dvd Copier"</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/Canopy/releases/download/v1.1.0/Canopy-v1.1.0-aarch64.zip"
+                sparkle:edSignature="LCEm6M0uqEvWZIHj9YwDXstgnlTDuXP2V6l4It/HYYp55zeKiyEatOj6b9df222gJkNdTV1zh2NQfbhIZxrICA=="
+                length="2687463"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.3</title>
             <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
