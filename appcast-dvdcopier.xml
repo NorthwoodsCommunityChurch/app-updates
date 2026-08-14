@@ -20,7 +20,7 @@
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/NorthwoodsCommunityChurch/avl-dvd-copier/releases/download/v1.0.5/DVD-Copier-1.0.5.zip"
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/dvdcopier-v1.0.5/DVD-Copier-1.0.5.zip"
                 sparkle:edSignature="6OhIDIuvhpeu6tfCCXRhD1g1fiUv1GtqU8KcC/BMprCyBnJXRnzuLZ5MnnwTIHTRZa+ThnvNJwJK/jsZuR9fBg=="
                 length="1972730"
                 type="application/octet-stream"/>
