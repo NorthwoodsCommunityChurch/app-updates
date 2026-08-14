@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "comment": "Canopy app catalog. Canopy reads this file from GitHub Pages instead of scanning org repos, so app repos can be private. Fields: id (stable app id), name (display name, styled by Canopy), description, tagPrefix (release tag in THIS repo is <tagPrefix>-v<version>), legacyRepo (org repo whose own releases are used while no <tagPrefix>-v* release exists here; omit when same as id), legacyAssetPrefix (zip filename prefix filter for multi-app legacy repos), appcast (filename in this repo, null if none), icon (path in this repo, null if none). To add an app to Canopy: add an entry here. To migrate an app's zips here: upload the release zip as a release of this repo tagged <tagPrefix>-v<version>.",
+  "apps": [
+    {
+      "id": "avl-dvd-copier",
+      "name": "avl-dvd-copier",
+      "description": "macOS app for ripping DVD titles to MKV using MakeMKV",
+      "tagPrefix": "dvdcopier",
+      "appcast": "appcast-dvdcopier.xml",
+      "icon": null
+    },
+    {
+      "id": "avl-vault-search",
+      "name": "avl-vault-search",
+      "description": "Native macOS app for searching the Northwoods media vault",
+      "tagPrefix": "vaultsearch",
+      "appcast": null,
+      "icon": "icons/avl-vault-search.png"
+    },
+    {
+      "id": "c200-controller",
+      "name": "c200-controller",
+      "description": "macOS dashboard for wireless Canon C200 camera control via ESP32-S3 bridge",
+      "tagPrefix": "c200controller",
+      "appcast": "appcast-c200controller.xml",
+      "icon": "icons/c200-controller.png"
+    },
+    {
+      "id": "camera-positions",
+      "name": "camera-positions",
+      "description": "Camera operator assignment display for live production teams",
+      "tagPrefix": "camerapositions",
+      "appcast": "appcast-camerapositions.xml",
+      "icon": "icons/camera-positions.png"
+    },
+    {
+      "id": "claude-dials",
+      "name": "claude-dials",
+      "description": "Menu-bar tally dials showing live Claude session usage for two accounts",
+      "tagPrefix": "claudedials",
+      "appcast": "appcast-claudedials.xml",
+      "icon": "icons/claude-dials.png"
+    },
+    {
+      "id": "dashboard",
+      "name": "AVL Dashboard",
+      "description": "macOS system monitoring dashboard with menu bar agent — Bonjour discovery, live CPU/temp/network metrics, Tailscale support",
+      "tagPrefix": "dashboard",
+      "legacyRepo": "AVL-Dashboard",
+      "legacyAssetPrefix": "Dashboard-v",
+      "appcast": "appcast-dashboard.xml",
+      "icon": "icons/dashboard.png"
+    },
+    {
+      "id": "dashboard-agent",
+      "name": "Dashboard Agent",
+      "description": "Background agent that reports system stats to AVL Dashboard",
+      "tagPrefix": "dashboardagent",
+      "legacyRepo": "AVL-Dashboard",
+      "legacyAssetPrefix": "DashboardAgent-v",
+      "appcast": "appcast-dashboardagent.xml",
+      "icon": null
+    },
+    {
+      "id": "Davinci-Project-Server-Backup",
+      "name": "Davinci-Project-Server-Backup",
+      "description": "Native macOS app for backing up DaVinci Resolve Project Server databases",
+      "tagPrefix": "davinciprojectserverbackup",
+      "appcast": null,
+      "icon": null
+    },
+    {
+      "id": "Junk-Drawer",
+      "name": "Junk-Drawer",
+      "description": "A simple macOS menu bar icon manager",
+      "tagPrefix": "junkdrawer",
+      "appcast": "appcast-junkdrawer.xml",
+      "icon": "icons/Junk-Drawer.png"
+    },
+    {
+      "id": "mac-fan-control",
+      "name": "mac-fan-control",
+      "description": "macOS menu bar app that adds a bias slider for fan speed control on Apple Silicon",
+      "tagPrefix": "macfancontrol",
+      "appcast": null,
+      "icon": "icons/mac-fan-control.png"
+    },
+    {
+      "id": "MIDI-Automation",
+      "name": "MIDI-Automation",
+      "description": "Automatically generates MIDI files to trigger ProPresenter slides in sync with Ableton Live worship music",
+      "tagPrefix": "midiautomation",
+      "appcast": "appcast-midiautomation.xml",
+      "icon": "icons/MIDI-Automation.png"
+    },
+    {
+      "id": "Mirage",
+      "name": "Mirage",
+      "description": "Mount SMB network shares as local Finder volumes with smart caching and offline file support",
+      "tagPrefix": "mirage",
+      "appcast": "appcast-mirage.xml",
+      "icon": "icons/Mirage.png"
+    },
+    {
+      "id": "Photo-Ingest",
+      "name": "Photo-Ingest",
+      "description": "Native macOS app for organizing photo transfers from a church photography team to centralized storage",
+      "tagPrefix": "photoingest",
+      "appcast": "appcast-photoingest.xml",
+      "icon": "icons/Photo-Ingest.png"
+    },
+    {
+      "id": "Purchase-Assistant",
+      "name": "Purchase-Assistant",
+      "description": "macOS price tracking and comparison app for Northwoods purchasing",
+      "tagPrefix": "purchaseassistant",
+      "appcast": null,
+      "icon": "icons/Purchase-Assistant.png"
+    },
+    {
+      "id": "Screen-Tally",
+      "name": "Screen-Tally",
+      "description": "Native macOS menu bar app for displaying tally borders from Ross Carbonite switchers",
+      "tagPrefix": "screentally",
+      "appcast": "appcast-screentally.xml",
+      "icon": "icons/Screen-Tally.png"
+    },
+    {
+      "id": "Synaxis",
+      "name": "Synaxis",
+      "description": "Real-time broadcast production monitor and Adobe Premiere timeline generator for multi-camera live events",
+      "tagPrefix": "synaxis",
+      "appcast": "appcast-synaxis.xml",
+      "icon": "icons/Synaxis.png"
+    },
+    {
+      "id": "vocalist-positions",
+      "name": "Vocalist Positions",
+      "description": "Vocalist position assignment display for live production teams",
+      "tagPrefix": "vocalistpositions",
+      "legacyRepo": "Production-Positions",
+      "legacyAssetPrefix": "VocalistPositions",
+      "appcast": "appcast-vocalistpositions.xml",
+      "icon": "icons/vocalist-positions.png"
+    },
+    {
+      "id": "Whisper-Verses",
+      "name": "Whisper-Verses",
+      "description": "Real-time Bible verse detection and ProPresenter slide capture for live services",
+      "tagPrefix": "whisperverses",
+      "appcast": "appcast-whisperverses.xml",
+      "icon": "icons/Whisper-Verses.png"
+    }
+  ]
+}
