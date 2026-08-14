@@ -29,6 +29,20 @@ repo whenever you publish a new version of *any* Northwoods Mac app. Stack: stat
 
 ## Out-of-session changes
 
+### 2026-08-14 — work done from ESP32 Canon C200
+
+- **This repo now hosts release ZIPS as its own GitHub releases**, not just appcasts. Aaron
+  decided the org's app repos go private one at a time; Sparkle needs public zips, so they
+  upload here as releases tagged `<app>-v<version>`. Policy + per-app migration recipe:
+  `../App Updates/SPARKLE-GUIDE.md` → "Where Release Zips Live".
+- Migrated same-day (zip re-hosted sha256-identical, appcast repointed, repo flipped private,
+  post-flip download verified): c200-controller (`c200controller-v1.2.10`), Whisper-Verses
+  (`whisperverses-v1.2.2`, by its own session), Canopy (`canopy-v1.1.0`, by its own session).
+- Known side effect being fixed Canopy-side: Canopy's catalog only discovers public org repos,
+  so migrated apps vanish from it until its discovery/download redesign lands.
+- **Verify:** `gh release list -R NorthwoodsCommunityChurch/app-updates` and
+  `curl -sL -o /dev/null -w '%{http_code}' https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/c200controller-v1.2.10/C200Controller-1.2.10.zip` → 200
+
 ### 2026-07-31 — work done from SMPTE <-> MIDI
 
 - Added `appcast-smptetomidi.xml` (SMPTE to MIDI, bundle `com.northwoodschurch.smptetomidi`) —
@@ -53,8 +67,10 @@ Static file host. There is no code, no build, and nothing to run locally. The re
 to GitHub Pages at `https://northwoodscommunitychurch.github.io/app-updates/`. Publishing an app
 update = editing the relevant `appcast-<app>.xml` here (adding a new `<item>`) and pushing — GitHub
 Pages serves the new file within a minute or so, and the next time the app polls Sparkle it offers
-the update. The update zip itself is **not** stored here; it lives on the app's own GitHub Release,
-and the appcast `<enclosure url>` points at it.
+the update. The update zip is hosted as a **GitHub release of this repo** (tag `<app>-v<version>`) — since
+2026-08-14, app repos are private, so their own release assets are unreachable by Sparkle. The
+appcast `<enclosure url>` points at this repo's release asset. (Entries older than 2026-08-14
+still point at app-repo URLs, most now dead — harmless, Sparkle only offers the newest item.)
 
 ## Architecture
 ```
@@ -122,9 +138,11 @@ Per-app appcast inventory (file → channel title → # of published versions):
 No build, no local run. "Release" here means publishing an app update by editing an appcast:
 
 ```bash
-# This repo only hosts the feed. The release flow lives in the APP's repo + this one:
-# 1. In the app repo: build, zip, create the GitHub Release, upload the zip.
-# 2. Download the zip back FROM the GitHub Release (signatures are randomized — sign the
+# This repo hosts the feed AND the zips (as releases). The flow:
+# 1. Build + zip in the app repo, then upload the zip to a release of THIS repo tagged
+#    <app>-v<version> (gh release create <app>-v<x.y.z> -R NorthwoodsCommunityChurch/app-updates ...).
+#    The app's own (private) repo gets a tag/release for the changelog record, no zip.
+# 2. Download the zip back FROM the app-updates release (signatures are randomized — sign the
 #    exact bytes users will download, per SPARKLE-GUIDE.md).
 # 3. Sign the downloaded zip → produces sparkle:edSignature + length.
 # 4. In THIS repo: add a new <item> to appcast-<app>.xml (newest item first) with
@@ -147,8 +165,9 @@ Ask Aaron before bumping any app's version.
 - **Sign the file users actually download.** EdDSA signing is randomized; signing a local zip and
   then uploading a "different but identical" zip makes verification fail. Upload → download → sign
   the downloaded bytes → put that signature in the appcast.
-- **`enclosure url` points at the app's own GitHub Release**, not at anything in this repo. This
-  repo never holds binaries.
+- **`enclosure url` points at a release of THIS repo** (tag `<app>-v<version>`) since 2026-08-14 —
+  app repos are private, so zips upload here. Binaries live only in this repo's *releases*, never
+  in the Pages-served working tree.
 - **Newest `<item>` goes on top** of the `<channel>`. Sparkle scans for the highest version, but
   keep them ordered for human readability.
 - **GitHub Pages casing:** the served hostname is all-lowercase
@@ -172,4 +191,5 @@ End a work session with **`/save`** — it commits, pushes, syncs docs, and leav
 ## Document history
 | Date | Change |
 |---|---|
+| 2026-08-14 | Repo now also hosts release zips as its own GitHub releases (tag `<app>-v<version>`) so app repos can go private; updated What-it-does, conventions, and release flow; added out-of-session entry (from ESP32 Canon C200) |
 | 2026-05-29 | Initial CLAUDE.md to Northwoods standard (adapted for a docs/feed-host repo — no build/run) |
