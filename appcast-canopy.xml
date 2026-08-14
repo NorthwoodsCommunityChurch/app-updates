@@ -23,7 +23,7 @@
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/NorthwoodsCommunityChurch/Canopy/releases/download/v1.1.0/Canopy-v1.1.0-aarch64.zip"
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/canopy-v1.1.0/Canopy-v1.1.0-aarch64.zip"
                 sparkle:edSignature="LCEm6M0uqEvWZIHj9YwDXstgnlTDuXP2V6l4It/HYYp55zeKiyEatOj6b9df222gJkNdTV1zh2NQfbhIZxrICA=="
                 length="2687463"
                 type="application/octet-stream"/>
