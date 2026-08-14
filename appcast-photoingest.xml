@@ -19,9 +19,9 @@
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/NorthwoodsCommunityChurch/Photo-Ingest/releases/download/v1.0.2/PhotoIngest-v1.0.2-aarch64.zip"
-                sparkle:edSignature="rKP5QXMG8cpxg7DEVfOvvjKE8AsQdHkuK+MlpNf5/yKsCJnEmoVH8f1dN9bgcrjffyBm7jntEnnRvLsvG9khAA=="
-                length="3186946"
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/photoingest-v1.0.2/PhotoIngest-v1.0.2-aarch64.zip"
+                sparkle:edSignature="G3myxNqcAUhdKSF0sV5SzlabxinO6Gdyg+4Y8rb3EkyEl/JF+m2Rv8cdpDAtSycwwXa2VFu0O9/5ZleB4Ae4Bw=="
+                length="4306282"
                 type="application/octet-stream"/>
         </item>
 
