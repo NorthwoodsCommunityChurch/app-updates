@@ -19,7 +19,7 @@
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/NorthwoodsCommunityChurch/claude-dials/releases/download/v1.0.1/Claude.Dials-v1.0.1-aarch64.zip"
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/claudedials-v1.0.1/Claude.Dials-v1.0.1-aarch64.zip"
                 sparkle:edSignature="MtSLcktPxUIlemvCkg+wgokdli1FqjLuAl5C8iVFG1Oz2HnHnABK645eb+nATpZ4t6uBFeYvKub1e5suKrvzCQ=="
                 length="1829107"
                 type="application/octet-stream"/>
