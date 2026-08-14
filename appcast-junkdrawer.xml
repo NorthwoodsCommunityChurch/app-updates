@@ -20,7 +20,7 @@
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/NorthwoodsCommunityChurch/Junk-Drawer/releases/download/v1.0.3/JunkDrawer-v1.0.3-aarch64.zip"
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/junkdrawer-v1.0.3/JunkDrawer-v1.0.3-aarch64.zip"
                 sparkle:edSignature="WvNLtwYhzxtupTOERylRxWC0ogh22ozgio07k/Zz2KgIJOGTlqO7NQd6kK0xslt/UTGjP1sYmm0858rVsuAqCw=="
                 length="1143179"
                 type="application/octet-stream"/>
