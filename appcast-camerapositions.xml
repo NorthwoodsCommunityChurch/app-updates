@@ -19,7 +19,7 @@
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/NorthwoodsCommunityChurch/camera-positions/releases/download/v1.0.8/CameraPositions-v1.0.8-aarch64.zip"
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/camerapositions-v1.0.8/CameraPositions-v1.0.8-aarch64.zip"
                 sparkle:edSignature="JkOaUvGAbH9C1kF+vjcuRMf0HXLp+DjC8PVgLs47q1D3OlH0a1hkaRFtfaHF9YViToHzYDEK+AQhEtCZbI8MBA=="
                 length="4277229"
                 type="application/octet-stream"/>
