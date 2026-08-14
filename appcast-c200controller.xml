@@ -37,7 +37,7 @@
                 <p>OLED on each box may show only "Oh Hi / WiFi" with no camera/op/lens text. Firmware path is verified working (manual <code>POST /api/display</code> populates instantly) — dashboard is pushing empty op/lens strings, likely a Camera Positions service config issue. Tracked for a future session.</p>
             ]]></description>
             <enclosure
-                url="https://github.com/NorthwoodsCommunityChurch/c200-controller/releases/download/v1.2.10/C200Controller-1.2.10.zip"
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/c200controller-v1.2.10/C200Controller-1.2.10.zip"
                 sparkle:edSignature="52vecwfoo/w+mAUVfsX24X4X7CgNUR3AekJ0Fs6XXLjJipkRQEhUCLoxr9ZZ74PmVTIlPa7qtSGtldeTI4HoBw=="
                 length="3008625"
                 type="application/octet-stream"/>
