@@ -22,7 +22,7 @@
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/NorthwoodsCommunityChurch/Whisper-Verses/releases/download/v1.2.2/WhisperVerses-v1.2.2-aarch64.zip"
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/whisperverses-v1.2.2/WhisperVerses-v1.2.2-aarch64.zip"
                 sparkle:edSignature="gGx23aK+4xsjTGj9WRJ67Cffqmr2Y9J80EBPqbZWYw8mJGQpe/f7SXyll8KjQ46zoK6A3i0d7zdecDB7QF1eDg=="
                 length="1958428"
                 type="application/octet-stream"/>
