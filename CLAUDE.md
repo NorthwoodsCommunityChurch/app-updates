@@ -29,6 +29,18 @@ repo whenever you publish a new version of *any* Northwoods Mac app. Stack: stat
 
 ## Out-of-session changes
 
+### 2026-08-16 — work done from Screen Call Light
+
+- Added `appcast-screencalllight.xml` (new app, first entry v1.0.0, semantic
+  `sparkle:version` matching the app's CFBundleVersion — same consistent-semantic pattern as
+  Screen Tally) and a `catalog.json` entry (`tagPrefix: screencalllight`) for Canopy.
+- Created release `screencalllight-v1.0.0` on this repo with two assets: the app zip
+  (`ScreenCallLight-v1.0.0-aarch64.zip`, EdDSA-signed from the downloaded bytes) and the
+  Companion module `companion-module` .tgz (`screencalllight-1.0.0.tgz`) so central-mac can
+  download it for import — first time a Companion module rides an app-updates release.
+- **Verify:** `curl -sI https://northwoodscommunitychurch.github.io/app-updates/appcast-screencalllight.xml | head -1`
+  and `gh release view screencalllight-v1.0.0 -R NorthwoodsCommunityChurch/app-updates`
+
 ### 2026-08-14 — work done from ESP32 Canon C200
 
 - **This repo now hosts release ZIPS as its own GitHub releases**, not just appcasts. Aaron
