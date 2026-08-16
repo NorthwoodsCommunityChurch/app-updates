@@ -45,7 +45,7 @@
     {
       "id": "dashboard",
       "name": "AVL Dashboard",
-      "description": "macOS system monitoring dashboard with menu bar agent — Bonjour discovery, live CPU/temp/network metrics, Tailscale support",
+      "description": "macOS system monitoring dashboard with menu bar agent \u2014 Bonjour discovery, live CPU/temp/network metrics, Tailscale support",
       "tagPrefix": "dashboard",
       "legacyRepo": "AVL-Dashboard",
       "legacyAssetPrefix": "Dashboard-v",
@@ -151,6 +151,14 @@
       "tagPrefix": "whisperverses",
       "appcast": "appcast-whisperverses.xml",
       "icon": "icons/Whisper-Verses.png"
+    },
+    {
+      "id": "Screen-Call-Light",
+      "name": "Screen Call Light",
+      "description": "Full-screen red call light for Macs, triggered from Bitfocus Companion",
+      "tagPrefix": "screencalllight",
+      "appcast": "appcast-screencalllight.xml",
+      "icon": null
     }
   ]
 }

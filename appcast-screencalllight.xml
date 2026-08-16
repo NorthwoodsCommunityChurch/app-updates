@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Screen Call Light Updates</title>
+        <link>https://northwoodscommunitychurch.github.io/app-updates/</link>
+        <description>Updates for Screen Call Light</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.0.0</title>
+            <sparkle:version>1.0.0</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 16 Aug 2026 12:15:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>Initial release</h2>
+                <ul>
+                    <li>Full-screen smooth red call light on all displays, triggered from Bitfocus Companion</li>
+                    <li>One Companion connection per Mac; stack Flash actions for a CALL ALL button</li>
+                    <li>Cue-light menu bar popover with lamp test, connection status, and launch at login</li>
+                    <li>Auto-reconnecting hardened WebSocket link</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/screencalllight-v1.0.0/ScreenCallLight-v1.0.0-aarch64.zip"
+                sparkle:edSignature="c+v0iU/KcIei9x7cDA3PXLtDoLakURxqGp8RvrypTXb7L5jlctFBXDzY6VY7JwmnCQ9mvs3iAMrp0yEY60g1Ag=="
+                length="1865291"
+                type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
