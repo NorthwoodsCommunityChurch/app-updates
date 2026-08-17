@@ -23,8 +23,8 @@
             ]]></description>
             <enclosure
                 url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/screencalllight-v1.0.0/ScreenCallLight-v1.0.0-aarch64.zip"
-                sparkle:edSignature="c+v0iU/KcIei9x7cDA3PXLtDoLakURxqGp8RvrypTXb7L5jlctFBXDzY6VY7JwmnCQ9mvs3iAMrp0yEY60g1Ag=="
-                length="1865291"
+                sparkle:edSignature="SxzsZ131QVaC/d6O0OpkTP0iC0SME1PS1+qCebAYwZ8x7wR3ghSHDbR4+zEsnlXBZdve62aWc+xjxWRgzf2SAA=="
+                length="1802608"
                 type="application/octet-stream"/>
         </item>
     </channel>
