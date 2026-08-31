@@ -159,6 +159,14 @@
       "tagPrefix": "screencalllight",
       "appcast": "appcast-screencalllight.xml",
       "icon": null
+    },
+    {
+      "id": "northwoods-wayfind",
+      "name": "Northwoods-Wayfind",
+      "description": "Digital-signage wayfinding display for the Northwoods campus (menu-bar launcher + embedded web display)",
+      "tagPrefix": "northwoodswayfind",
+      "appcast": "appcast-wayfind.xml",
+      "icon": null
     }
   ]
 }
