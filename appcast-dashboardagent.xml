@@ -7,6 +7,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.35</title>
+            <sparkle:version>1.0.35</sparkle:version>
+            <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 30 Sep 2026 11:40:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Network throughput no longer drops to zero every time an interface's 32-bit byte counter wraps (every 4.3 GB transferred).</li>
+                    <li>Version matches Dashboard v1.0.35.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/dashboardagent-v1.0.35/DashboardAgent-v1.0.35-universal.zip"
+                sparkle:edSignature="eq8Gm8lZGy0kimbELBunoE5DJhOfh8GDnH2Gev3YwMNauVMWTm8GT46/kFZT2yZ6JW+Rgbk9QIqdJDW65xs+DA=="
+                length="1788513"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.34</title>
             <sparkle:version>1.0.34</sparkle:version>
             <sparkle:shortVersionString>1.0.34</sparkle:shortVersionString>

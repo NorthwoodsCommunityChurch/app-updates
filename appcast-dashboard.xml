@@ -7,6 +7,29 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.35</title>
+            <sparkle:version>1.0.35</sparkle:version>
+            <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 30 Sep 2026 11:40:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Fixed the Dashboard slowing to a crawl after being left open all day.</li>
+                    <li>Cards no longer blink Offline for a moment when Bonjour is flaky but the machine is still reachable.</li>
+                    <li>The network ring now shows bits per second (for example "14.6 Gb/s"), matching TrueNAS and switch readouts.</li>
+                    <li>More reliable direct-IP fallback: it tracks the address that actually answered, so a card no longer gets stuck polling an unreachable container-bridge address.</li>
+                    <li>Renames and the saved machine list now save reliably.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/dashboard-v1.0.35/Dashboard-v1.0.35-universal.zip"
+                sparkle:edSignature="0MKAke3cNxqKNF4XJigydhYBnHyrsuw+PlQ0xj0gv8FhlF4tsrvJl74nWrMB9ksXL2KWW40ML6jjwRSzSkmrBA=="
+                length="2386699"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.34</title>
             <sparkle:version>1.0.34</sparkle:version>
             <sparkle:shortVersionString>1.0.34</sparkle:shortVersionString>
