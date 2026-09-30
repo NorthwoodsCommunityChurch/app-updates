@@ -7,6 +7,25 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.36</title>
+            <sparkle:version>1.0.36</sparkle:version>
+            <sparkle:shortVersionString>1.0.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 30 Sep 2026 11:55:00 -0500</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Version matches Dashboard v1.0.36. Includes the 1.0.35 network-counter fix; no other agent change.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/dashboardagent-v1.0.36/DashboardAgent-v1.0.36-universal.zip"
+                sparkle:edSignature="wS67XQtw4xFbmTdzosZGvhtjY5obFD3qnKvanDDrkO/FH1TBJlJFGM2d8WF+uRDUUiZG66dvQEITWe3OUGDBBA=="
+                length="1788513"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.35</title>
             <sparkle:version>1.0.35</sparkle:version>
             <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
