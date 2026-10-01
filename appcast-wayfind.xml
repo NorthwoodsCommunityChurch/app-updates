@@ -7,6 +7,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.5.0</title>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 01 Oct 2026 22:02:05 +0000</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Room screens: any eSpace room at /&lt;room name&gt; (for example /hub, /room-a) shows a doorway card — Happening now / Up next, room name in the header, big type for an iPad at the door</li>
+                    <li>Screens: configured screens live at /&lt;name&gt; with their own hide rules and layout; /lobby is created on upgrade with the former global hide rules and the bare address keeps showing it until you switch it in /config → Bare address</li>
+                    <li>Screen picker at /screens; Room screens and Connected screens cards in the configuration app</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/northwoodswayfind-v1.5.0/Northwoods-Wayfind-v1.5.0.zip"
+                sparkle:edSignature="vjWJYMRpTdsCAW6QOUKC+e/3RmIWkaBBeiv97/Sh5uEcJNHz+gVSEzJn/ab6E8T26LU8kCSb2ydzZq7r3PfpDA=="
+                length="2668938"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.4.0</title>
             <sparkle:version>11</sparkle:version>
             <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
