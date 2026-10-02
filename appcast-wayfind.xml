@@ -7,6 +7,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.5.1</title>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 02 Oct 2026 19:32:48 +0000</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>Room names: give an eSpace room the name every screen shows, and keep its old address working through an eSpace rename (/config → Room names)</li>
+                    <li>Warehouse shows as 2nd &amp; 3rd, Factory as 4th &amp; 5th, Treehouse as NKids Multi Purpose; old and new addresses both open the room screen</li>
+                    <li>The screen picker keeps its scroll position (it jumped back to the top every 8 seconds)</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/northwoodswayfind-v1.5.1/Northwoods-Wayfind-v1.5.1.zip"
+                sparkle:edSignature="4V5P6Cp+NsA1J7K6s2OdsqvSSOkPtOATf83ZNOOGgoJ+8t25uYicTz3gPB6MHAZkm8BXwgasVd6yM4f6S4DvCg=="
+                length="2677652"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.5.0</title>
             <sparkle:version>12</sparkle:version>
             <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
