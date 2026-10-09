@@ -7,6 +7,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.5.2</title>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 09 Oct 2026 17:38:47 +0000</pubDate>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                    <li>A lone next event during a quiet stretch shows as one big card with its time inside; later events sit beneath as "Later today" rows</li>
+                    <li>Agenda cards are all the same width, so a wider card no longer looks like a longer event; a short agenda uses larger type and centers on screen</li>
+                    <li>Busy evenings: the sidebar uses one full-width column when it fits and its rows grow to fill the column</li>
+                    <li>An event with no room no longer shows a lone dash under LOCATION</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/northwoodswayfind-v1.5.2/Northwoods-Wayfind-v1.5.2.zip"
+                sparkle:edSignature="VAZJG3CjPve8/sQ0QuW28ye38PjaxOYzvf87KZUqDcLrGkLoCpgGSpLFllnGRPY2wYg5RWjxLBQvDjRfVQxBAg=="
+                length="2685544"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.5.1</title>
             <sparkle:version>13</sparkle:version>
             <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
