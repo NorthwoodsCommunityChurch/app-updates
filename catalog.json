@@ -167,6 +167,14 @@
       "tagPrefix": "northwoodswayfind",
       "appcast": "appcast-wayfind.xml",
       "icon": null
+    },
+    {
+      "id": "avl-teleprompter",
+      "name": "North Prompt",
+      "description": "Teleprompter for the Elgato Prompter XL with a live operator view, shuttle control, and voice-follow (based on LabPrompter)",
+      "tagPrefix": "teleprompter",
+      "appcast": null,
+      "icon": "icons/avl-teleprompter.png"
     }
   ]
 }
