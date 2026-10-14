@@ -1,8 +1,8 @@
-version: 1.0.0
+version: 1.0.1
 files:
-  - url: https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/teleprompter-v1.0.0/NorthPrompt-v1.0.0-aarch64.zip
-    sha512: yovfmmAAvN6LBf66IZK3WUBX++YCD2jGuxr2bUxt/p/P/1dOs/M5kJ+IGHXRLGmQoyAivxM3k83IdbYt7tujJA==
-    size: 111941740
-path: https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/teleprompter-v1.0.0/NorthPrompt-v1.0.0-aarch64.zip
-sha512: yovfmmAAvN6LBf66IZK3WUBX++YCD2jGuxr2bUxt/p/P/1dOs/M5kJ+IGHXRLGmQoyAivxM3k83IdbYt7tujJA==
-releaseDate: '2026-10-14T14:31:33.066Z'
+  - url: https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/teleprompter-v1.0.1/NorthPrompt-v1.0.1-aarch64.zip
+    sha512: EqqRYJb93pdV6V207fMFpBF6u0+TXa8BTluGnGZWMr6M1VAu0xJ/tG4vVlfw+q2okShWbjBqzovlPgzZv5i2+g==
+    size: 111404276
+path: https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/teleprompter-v1.0.1/NorthPrompt-v1.0.1-aarch64.zip
+sha512: EqqRYJb93pdV6V207fMFpBF6u0+TXa8BTluGnGZWMr6M1VAu0xJ/tG4vVlfw+q2okShWbjBqzovlPgzZv5i2+g==
+releaseDate: '2026-10-14T14:46:36.602Z'
