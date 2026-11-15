@@ -13,6 +13,36 @@
              legacy-appcast mirroring is needed. -->
 
         <item>
+            <title>Version 1.1.0</title>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 14 Nov 2026 19:15:00 -0600</pubDate>
+            <description><![CDATA[
+                <h2>New</h2>
+                <ul>
+                    <li>The readout is now a running clock that shows the timecode right now, using the same decoder and clock as SMPTE Notes</li>
+                    <li>Pick which input channel carries the timecode (earlier versions could only read channel 1)</li>
+                    <li>The frame rate is detected from the timecode; the frame rate setting is gone</li>
+                    <li>Art-Net timecode output for grandMA3 consoles and onPC, sent to everyone on a chosen network or to one address, with a stream ID</li>
+                    <li>Separate switches for the MIDI timecode and Art-Net timecode outputs</li>
+                    <li>The app remembers the input device and channel, and keeps trying if the device is not ready yet</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>MIDI timecode goes out on the timecode's own frame boundaries instead of one to two frames late</li>
+                    <li>When the timecode stops, receivers are parked on the frame it stopped on</li>
+                </ul>
+                <p>macOS asks for Microphone access again after this update, and for Local Network access the first time Art-Net is sent to another machine.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/NorthwoodsCommunityChurch/app-updates/releases/download/smptemidi-v1.1.0/SMPTEtoMIDI-v1.1.0-aarch64.zip"
+                sparkle:edSignature="t9P0o/OYMXmGUv+Edd6qrJwtLbfOLcL7y+yF+aniPtVjndQvLCNHsrqLgAX52DCkWf55itOkffbsi6QPDzQ7CA=="
+                length="1647007"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.2</title>
             <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>

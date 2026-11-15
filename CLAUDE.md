@@ -29,6 +29,19 @@ repo whenever you publish a new version of *any* Northwoods Mac app. Stack: stat
 
 ## Out-of-session changes
 
+### 2026-11-14 — work done from SMPTE <-> MIDI
+
+- Released SMPTE to MIDI v1.1.0 (build 3): release `smptemidi-v1.1.0` on this repo with
+  `SMPTEtoMIDI-v1.1.0-aarch64.zip` (EdDSA-signed from the downloaded bytes), new top `<item>`
+  in `appcast-smptetomidi.xml`.
+- Added the app to `catalog.json` for the first time (`id: SMPTE-MIDI`, `tagPrefix: smptemidi`,
+  icon `icons/SMPTE-MIDI.png`). Note the tag prefix (`smptemidi`, from the repo name) differs
+  from the appcast filename (`smptetomidi`, baked into shipped builds) — both are correct.
+- The older v1.0.2 `<item>` still points at the now-private `SMPTE-MIDI` repo (dead URL, left
+  as-is per the guide; Sparkle only offers the newest item).
+- **Verify:** `curl -s https://northwoodscommunitychurch.github.io/app-updates/appcast-smptetomidi.xml | grep -m1 shortVersionString`
+  → 1.1.0, and `gh release view smptemidi-v1.1.0 -R NorthwoodsCommunityChurch/app-updates`
+
 ### 2026-08-16 — work done from Screen Call Light
 
 - Added `appcast-screencalllight.xml` (new app, first entry v1.0.0, semantic

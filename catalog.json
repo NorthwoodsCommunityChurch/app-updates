@@ -45,7 +45,7 @@
     {
       "id": "dashboard",
       "name": "AVL Dashboard",
-      "description": "macOS system monitoring dashboard with menu bar agent \u2014 Bonjour discovery, live CPU/temp/network metrics, Tailscale support",
+      "description": "macOS system monitoring dashboard with menu bar agent — Bonjour discovery, live CPU/temp/network metrics, Tailscale support",
       "tagPrefix": "dashboard",
       "legacyRepo": "AVL-Dashboard",
       "legacyAssetPrefix": "Dashboard-v",
@@ -167,6 +167,14 @@
       "tagPrefix": "northwoodswayfind",
       "appcast": "appcast-wayfind.xml",
       "icon": null
+    },
+    {
+      "id": "SMPTE-MIDI",
+      "name": "SMPTE to MIDI",
+      "description": "Converts LTC/SMPTE timecode from an audio input to MIDI timecode and Art-Net timecode",
+      "tagPrefix": "smptemidi",
+      "appcast": "appcast-smptetomidi.xml",
+      "icon": "icons/SMPTE-MIDI.png"
     }
   ]
 }
