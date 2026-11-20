@@ -29,6 +29,18 @@ repo whenever you publish a new version of *any* Northwoods Mac app. Stack: stat
 
 ## Out-of-session changes
 
+### 2026-11-19 — work done from Teleprompter (North Prompt)
+
+- **This repo's history was rewritten** on Aaron's word, to remove a retired app's files from
+  it. Everything up to `fc8ac3a` is unchanged; the commits after it have new IDs. The current
+  files are the same as before, and no appcast or catalog entry changed.
+- The `smptemidi-v1.1.0` tag was moved onto the new history. Its release and zip are untouched.
+- **If a clone still has the old history** (`git status` says it has diverged from
+  `origin/main`), run `git fetch origin && git reset --hard origin/main && git fetch --tags --force`.
+  Never merge or pull the old history back in.
+- **Verify:** `git log --oneline -3` shows this note's commit on top of
+  "feed: SMPTE to MIDI 1.1.0", and `git status -sb` shows `main...origin/main` with nothing ahead or behind.
+
 ### 2026-11-14 — work done from SMPTE <-> MIDI
 
 - Released SMPTE to MIDI v1.1.0 (build 3): release `smptemidi-v1.1.0` on this repo with
